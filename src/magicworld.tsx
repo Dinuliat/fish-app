@@ -1,9 +1,8 @@
-export const Magicworld = () =>{
-
+export const Magicworld = () => {
     return (
         <div className="h-100 p-5">
             <div className="MagicContainer h-100 w-100">
-                
+
                 <div className="Menu row">
                     <div className='Menu1 col'>Безопасные рыбы</div>
                     <div className='Menu2 col'>Опасные рыбы</div>
