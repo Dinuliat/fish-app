@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   background-color: rgb(3, 19, 75);
-
 }
 
 .MagicContainer {
@@ -39,7 +38,6 @@
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   padding: 80px;
   position: float;
-
 }
 
 .Section {
@@ -51,7 +49,6 @@
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   padding: 150px;
   position: float;
-
 }
 
 .Chapter1 {
@@ -82,13 +79,11 @@
     1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     2px 4px 8px 0px rgba(0, 0, 0, 0.7),
     2px 4px 16px 0px rgba(0, 0, 0, 0.7);
-
 }
 
 .Chapter4 {
   height: flex;
   width: flex;
-
 }
 
 .SafeFishesName {
@@ -97,7 +92,6 @@
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   padding: 250px;
-
 }
 
 .NoFishesName {
@@ -106,7 +100,6 @@
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   padding: 250px;
-
 }
 
 .DangerousFishesName {
@@ -115,7 +108,6 @@
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   padding: 250px;
-
 }
 
 .ContactsFishesName {
@@ -124,7 +116,6 @@
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   padding: 250px;
-
 }
 
 .App-logo {
