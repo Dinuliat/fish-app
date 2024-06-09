@@ -28,7 +28,9 @@ export const Magicworld = () => {
                 <div className='Section row'>
 
                     <div onClick={onSafeFishes} className='Chapter1 col'>Безопасные рыбы</div>
+                    <div onClick={onSafeFishes} className='Chapter4 col'></div>
                     <div onClick={onDangerousFishes} className='Chapter2 col'>Опасные рыбы</div>
+                    <div onClick={onSafeFishes} className='Chapter5 col'></div>
                     <div onClick={onNoFishes} className='Chapter3 col'>Не рыбы</div>
 
                 </div>
