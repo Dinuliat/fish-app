@@ -4,6 +4,8 @@
 }
 
 .MagicContainer {
+  display: flex;
+  flex-direction: column;
   background-image: url("../public/image/Meduza_2-fentazi.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -15,14 +17,19 @@
 
 .Search {
   padding: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Search input {
+  display: flex;
+  align-items: center;
   height: 40px;
   width: 22%;
   background-color: rgba(9, 39, 170, 0.6);
   color: aqua;
-  font-size: 28px;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
   font-weight: 500;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
 }
@@ -32,90 +39,215 @@
 }
 
 .Banner_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: aliceblue;
-  font-size: 65px;
   font-weight: 400;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
-  padding: 80px;
-  position: float;
+  font-family: 'Candara', 'Times New Roman', Times, serif;
+  padding: 60px;
+  font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);
 }
 
 .Section {
-  padding: 180px;
-  height: 600px;
+  display: flex;
+  flex: auto;
   color: aliceblue;
-  font-size: 36px;
-  font-weight: 250;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
-  padding: 150px;
-  position: float;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  justify-content: space-evenly;
+
 }
 
 .Chapter1 {
+  display: flex;
   background-image: url("../public/image/безопасные рыбы.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  height: 40%;
+  width: 22%;
+  flex-direction: row;
+  justify-content: flex-end;
+  min-width: 215px;
   box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     2px 4px 8px 0px rgba(0, 0, 0, 0.7),
     2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Chapter1_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Candara', 'Times New Roman', Times, serif;
+  padding: 8%;
+  width: 70%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
 }
 
 .Chapter2 {
+  display: flex;
   background-image: url("../public/image/опасные рыбы.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  /*margin-right: 20%;*/
+  /*margin-left: 20%;*/
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 40%;
+  width: 22%;
   box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     2px 4px 8px 0px rgba(0, 0, 0, 0.7),
     2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Chapter2_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  padding: 8%;
+  width: 70%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
 }
 
 .Chapter3 {
+  display: flex;
   background-image: url("../public/image/не рыбы.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  /*margin-right: 10%;*/
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 40%;
+  width: 22%;
   box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     2px 4px 8px 0px rgba(0, 0, 0, 0.7),
     2px 4px 16px 0px rgba(0, 0, 0, 0.7);
 }
 
-.Chapter4 {
-  height: flex;
-  width: flex;
+.Chapter3_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  padding: 8%;
+  width: 70%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
 }
 
 .SafeFishesName {
+  display: flex;
   color: aliceblue;
   font-size: 75px;
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   padding: 250px;
+  align-items: center;
+  justify-content: center;
 }
 
 .NoFishesName {
+  display: flex;
   color: aliceblue;
   font-size: 75px;
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   padding: 250px;
+  align-items: center;
+  justify-content: center;
 }
 
 .DangerousFishesName {
+  display: flex;
   color: aliceblue;
   font-size: 75px;
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   padding: 250px;
+  align-items: center;
+  justify-content: center;
 }
 
 .ContactsFishesName {
+  display: flex;
   color: aliceblue;
   font-size: 75px;
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   padding: 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+.SafeFishes-box {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: column;
+  font-stretch: normal;
+  flex-basis: max-content;
+  justify-content: space-evenly;
+}
+
+.SafeFishes-box1 {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.SafeFishes-box2 {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.SafeFishes-box3 {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.SafeFishes-box4 {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .App-logo {
