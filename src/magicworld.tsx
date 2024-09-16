@@ -24,15 +24,16 @@ export const Magicworld = () => {
                 <div className="Banner">
                     <p className="Banner_text">Волшебный подводный мир Красного моря</p>
                 </div>
-
-                <div className='Section row'>
-
-                    <div onClick={onSafeFishes} className='Chapter1 col'>Безопасные рыбы</div>
-                    <div onClick={onSafeFishes} className='Chapter4 col'></div>
-                    <div onClick={onDangerousFishes} className='Chapter2 col'>Опасные рыбы</div>
-                    <div onClick={onSafeFishes} className='Chapter5 col'></div>
-                    <div onClick={onNoFishes} className='Chapter3 col'>Не рыбы</div>
-
+                <div className='Section'>
+                    <div onClick={onSafeFishes} className='Chapter1'>
+                        <p className="Chapter1_text">Безопасные рыбы</p>
+                    </div>
+                    <div onClick={onDangerousFishes} className='Chapter2'>
+                        <p className="Chapter2_text">Опасные рыбы</p>
+                    </div>
+                    <div onClick={onNoFishes} className='Chapter3'>
+                        <p className="Chapter3_text">Не рыбы</p>
+                    </div>
                 </div>
             </div>
         </div>
