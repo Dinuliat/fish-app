@@ -95,8 +95,6 @@
   background-image: url("../public/image/опасные рыбы.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /*margin-right: 20%;*/
-  /*margin-left: 20%;*/
   flex-direction: row;
   justify-content: flex-end;
   height: 40%;
@@ -124,7 +122,6 @@
   background-image: url("../public/image/не рыбы.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /*margin-right: 10%;*/
   flex-direction: row;
   justify-content: flex-end;
   height: 40%;
@@ -153,9 +150,13 @@
   font-size: 75px;
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
-  padding: 250px;
+  padding: 100px;
   align-items: center;
   justify-content: center;
+  text-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
 }
 
 .NoFishesName {
@@ -164,9 +165,10 @@
   font-size: 75px;
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
-  padding: 250px;
+  padding: 150px;
   align-items: center;
   justify-content: center;
+  font-size: clamp(4.75rem, 0.25rem + 2vw, 2rem);
 }
 
 .DangerousFishesName {
@@ -175,9 +177,10 @@
   font-size: 75px;
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
-  padding: 250px;
+  padding: 80px;
   align-items: center;
   justify-content: center;
+  font-size: clamp(4.75rem, 0.25rem + 2vw, 2rem);
 }
 
 .ContactsFishesName {
@@ -186,9 +189,195 @@
   font-size: 75px;
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
-  padding: 250px;
+  padding: 100px;
+  align-items: end;
+  justify-content: center;
+}
+
+.Contacts-box {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: column;
+  font-stretch: normal;
+  flex-basis: max-content;
+  justify-content: space-evenly;
+
+}
+
+.Foto02 {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.Foto {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/murena/мурена6.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: center;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Foto1 {
+  display: flex;
+  background-image: url("../public/image/no-fishes/corals/кораллы1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: center;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Foto2 {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/whale-sharks/китовая_акула4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Foto03 {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.Foto3 {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/napoleons/наполеон6.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+
+.Mail {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: column;
+  font-stretch: normal;
+  flex-basis: max-content;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.Email {
+  display: flex;
   align-items: center;
   justify-content: center;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  font-size: clamp(3.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Network {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: row;
+  font-stretch: normal;
+  align-items: center;
+  justify-content: center;
+}
+
+.Telegramm {
+  display: flex;
+  background-image: url("../public/image/free-icon-telegram-408737.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  height: 80%;
+  width: 15%;
+}
+
+.Contact {
+  display: flex;
+  background-image: url("../public/image/free-icon-vk-725288.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  height: 80%;
+  width: 15%;
+}
+
+.Foto4 {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/dugon/дюгонь4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Foto5 {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/skat/скат8.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
 }
 
 .SafeFishes-box {
@@ -205,8 +394,6 @@
 .SafeFishes-box1 {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   flex-basis: max-content;
@@ -250,6 +437,1540 @@
   justify-content: space-evenly;
 }
 
+.SafeFishes-box5 {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Angel {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/angel/ангел10.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Angel_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Antias {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/antias/антиас6.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Antias_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Cezii {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/cezii/цезии4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Cezii_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Dugon {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/dugon/дюгонь5.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Dugon_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Flat-tail {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/flat-tail/хвост2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Flat-tail {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Flute {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/flute/дудочка14.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Flute_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Grupper {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/gruppers/группер7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Grupper_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Kabuba {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/kabubas/кабубы2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Kabuba_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Kuzovok {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/kuzovok/кузовок4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Kuzovok_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Lipsfish {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/lips-fish/губан2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Lipsfish_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Napoleon {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/napoleons/наполеон7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Napoleon_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Nemo {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/nemo/немо4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Nemo_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Parrot {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/parrot/попугай9.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Parrot_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Platex {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/platex/платекс2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Platex_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Scolopsis {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/scolopsis/Scolopsis-ghanam2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Scolopsis_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Soldiers {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/soldiers/солдат1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Soldiers_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Tuna {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/tuna/тунец3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Tuna_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Whisperers {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/whisperers/шептуны2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Whisperers_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Zebrosoma {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/zebrosoma/зебрасомы2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Zebrosoma_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Dolphin {
+  display: flex;
+  background-image: url("../public/image/safe-fishes/dolphins/дельфин5.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Dolphin_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.DangerousFishes-box {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: column;
+  font-stretch: normal;
+  flex-basis: max-content;
+  justify-content: space-evenly;
+}
+
+.DangerousFishes-box1 {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.DangerousFishes-box2 {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.DangerousFishes-box3 {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.DangerousFishes-box4 {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.DangerousFishes-box5 {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.DangerousFishes-box6 {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Arototron {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/arototron/аротрон4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Arototron_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Baracuda {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/baracuda/баракуда4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Baracuda_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Crocodile {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/crocodile/крокодил2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Crocodile_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Hammerfish {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/hammer-fish/рыба-молот4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Hammerfish_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Lionfish {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/lionfish/крылатка3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Lionfish_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Longwingerfish {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/long-winged-fish/длиннокрылая\ акула1.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Longwingerfish_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Murena {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/murena/мурена5.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Murena_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Seasnake {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/sea-snake/морская\ змея\ 1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Seasnake_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Sharksblackfeather {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/sharks-black-feather/Черноперая_рифовая_акула9.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Sharksblackfeather_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Sharkscow {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/sharks-cow/бычья\ акула1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Sharkscow_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Sharksmaco {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/sharks-maco/акула\ мако\ 4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Sharksmaco_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Sharksnuss {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/sharks-nuss/акула\ нянька.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Sharksnuss_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Sharkswhite {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/sharks-white/белая\ акула1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Sharkswhite_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Sharkszebra {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/sharks-zebra/зебровая\ акула.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Sharkszebra_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Skat {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/skat/скат7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Skat_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Skatorlyak {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/skat/скат\ 12.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Skatorlyak_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Skatmantu {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/skat/скат9.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Skatmantu_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Spinorog {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/spinorog/спинорог17.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Spinorog_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Whalesharks {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/whale-sharks/китовая\ акула6.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Whalesharks_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Balistod {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/spinorog/спинорог9.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Balistod_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Stonefish {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/stone-fish/рыба-камень\ 4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Stonefish_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Surgeon {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/surgeon/хирург7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Surgeon_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Tiggerfish {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/tigger-fish/тигровая\ акула2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Tiggerfish_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Tulozure {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/tulozure/тилозур6.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Tulozure_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Longwingedfish {
+  display: flex;
+  background-image: url("../public/image/dangerous-fishes/long-winged-fish/длиннокрылая\ акула1.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Longwingedfish_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.NoFishes-box {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: column;
+  font-stretch: normal;
+  flex-basis: max-content;
+  justify-content: space-evenly;
+}
+
+.NoFishes-box1 {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.NoFishes-box2 {
+  display: flex;
+  flex: auto;
+  color: aliceblue;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  flex-direction: row;
+  font-stretch: normal;
+  flex-basis: max-content;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Turtles {
+  display: flex;
+  background-image: url("../public/image/no-fishes/turtles/морская\ черепаха7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Turtles_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Stars {
+  display: flex;
+  background-image: url("../public/image/no-fishes/stars/звезда3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Stars_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Squids {
+  display: flex;
+  background-image: url("../public/image/no-fishes/squids/кальмары1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Squids_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Octopus {
+  display: flex;
+  background-image: url("../public/image/no-fishes/octopus/осьминог4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Octopus_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Mollusks {
+  display: flex;
+  background-image: url("../public/image/no-fishes/mollusks/молюски5.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Mollusks_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Corals {
+  display: flex;
+  background-image: url("../public/image/no-fishes/corals/кораллы4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Corals_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 400;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+.Jellyfish {
+  display: flex;
+  background-image: url("../public/image/no-fishes/Jellyfish/aureliia-aurita.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80%;
+  width: 15%;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
+    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Jellyfish_text {
+  display: flex;
+  align-items: start;
+  justify-content: right;
+  color: aliceblue;
+  font-weight: 500;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  width: 70%;
+  padding: 4%;
+  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -271,6 +1992,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;

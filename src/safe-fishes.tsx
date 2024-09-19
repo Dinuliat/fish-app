@@ -100,9 +100,6 @@ export const SafeFishes = () => {
                         <div onClick={onDolphin} className='Dolphin'>
                             <p className="Dolphin_text">Дельфин</p>
                         </div>
-                        <div onClick={onNapoleon} className='Napoleon'>
-                            <p className="Napoleon_text">Наполеон</p>
-                        </div>
                     </div>
                     <div className='SafeFishes-box2'>
                         <div onClick={onParrot} className='Parrot'>
@@ -111,15 +108,13 @@ export const SafeFishes = () => {
                         <div onClick={onTuna} className='Tuna'>
                             <p className="Tuna_text">Тунец</p>
                         </div>
-                        <div onClick={onSolders} className='Solders'>
-                            <p className="Solders_text">Солдатики</p>
+                        <div onClick={onSolders} className='Soldiers'>
+                            <p className="Soldiers_text">Солдатики</p>
                         </div>
                         <div onClick={onZebrosoma} className='Zebrosoma'>
                             <p className="Zebrosoma_text">Зебрасома</p>
                         </div>
-                        <div onClick={onKabuba} className='Kabuba'>
-                            <p className="Kabuba_text">Кабубы</p>
-                        </div>
+
                     </div>
                     <div className='SafeFishes-box3'>
                         <div onClick={onNemo} className='Nemo'>
@@ -134,9 +129,7 @@ export const SafeFishes = () => {
                         <div onClick={onFlute} className='Flute'>
                             <p className="Flute_text">Рыба-дудочка</p>
                         </div>
-                        <div onClick={onLipsfish} className='Lipsfish'>
-                            <p className="Lipsfish_text">Губаны</p>
-                        </div>
+
                     </div>
                     <div className='SafeFishes-box4'>
                         <div onClick={onDugon} className='Dugon'>
@@ -150,6 +143,17 @@ export const SafeFishes = () => {
                         </div>
                         <div onClick={onScolopsis} className='Scolopsis'>
                             <p className="Scolopsis_text">Сколопсис</p>
+                        </div>
+                    </div>
+                    <div className='SafeFishes-box5'>
+                        <div onClick={onNapoleon} className='Napoleon'>
+                            <p className="Napoleon_text">Наполеон</p>
+                        </div>
+                        <div onClick={onLipsfish} className='Lipsfish'>
+                            <p className="Lipsfish_text">Губаны</p>
+                        </div>
+                        <div onClick={onKabuba} className='Kabuba'>
+                            <p className="Kabuba_text">Кабубы</p>
                         </div>
                     </div>
                 </div>
