@@ -47,13 +47,12 @@
   font-family: 'Candara', 'Times New Roman', Times, serif;
   padding: 60px;
   font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Section {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   flex-basis: max-content;
@@ -64,7 +63,7 @@
 
 .Chapter1 {
   display: flex;
-  background-image: url("../public/image/безопасные рыбы.jpg");
+  background-image: url("../public/image/safe-fishes/kabubas/кабубы2.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 40%;
@@ -88,11 +87,12 @@
   padding: 8%;
   width: 70%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Chapter2 {
   display: flex;
-  background-image: url("../public/image/опасные рыбы.jpg");
+  background-image: url("../public/image/dangerous-fishes/tigger-fish/тигровая\ акула6.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   flex-direction: row;
@@ -115,11 +115,12 @@
   padding: 8%;
   width: 70%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Chapter3 {
   display: flex;
-  background-image: url("../public/image/не рыбы.jpg");
+  background-image: url("../public/image/no-fishes/squids/кальмары6.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   flex-direction: row;
@@ -142,6 +143,7 @@
   padding: 8%;
   width: 70%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .SafeFishesName {
@@ -153,10 +155,7 @@
   padding: 100px;
   align-items: center;
   justify-content: center;
-  text-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
-    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
-    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
-    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .NoFishesName {
@@ -169,6 +168,7 @@
   align-items: center;
   justify-content: center;
   font-size: clamp(4.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .DangerousFishesName {
@@ -181,6 +181,7 @@
   align-items: center;
   justify-content: center;
   font-size: clamp(4.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .ContactsFishesName {
@@ -192,13 +193,12 @@
   padding: 100px;
   align-items: end;
   justify-content: center;
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Contacts-box {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: column;
   font-stretch: normal;
   flex-basis: max-content;
@@ -209,8 +209,6 @@
 .Foto02 {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   flex-basis: max-content;
@@ -267,14 +265,13 @@
 .Foto03 {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   flex-basis: max-content;
   align-items: center;
   padding: 10px;
   justify-content: space-evenly;
+
 }
 
 .Foto3 {
@@ -296,8 +293,6 @@
 .Mail {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: column;
   font-stretch: normal;
   flex-basis: max-content;
@@ -313,13 +308,12 @@
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   font-size: clamp(3.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Network {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   align-items: center;
@@ -383,8 +377,6 @@
 .SafeFishes-box {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: column;
   font-stretch: normal;
   flex-basis: max-content;
@@ -404,8 +396,6 @@
 .SafeFishes-box2 {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   flex-basis: max-content;
@@ -416,8 +406,6 @@
 .SafeFishes-box3 {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   flex-basis: max-content;
@@ -428,8 +416,6 @@
 .SafeFishes-box4 {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   flex-basis: max-content;
@@ -440,8 +426,6 @@
 .SafeFishes-box5 {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   flex-basis: max-content;
@@ -474,10 +458,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
-  text-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
-    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
-    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
-    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Antias {
@@ -505,6 +486,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Cezii {
@@ -532,6 +514,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Dugon {
@@ -559,6 +542,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Flat-tail {
@@ -576,7 +560,7 @@
     2px 4px 16px 0px rgba(0, 0, 0, 0.7);
 }
 
-.Flat-tail {
+.Flat-tail_text {
   display: flex;
   align-items: start;
   justify-content: right;
@@ -586,6 +570,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Flute {
@@ -613,6 +598,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Grupper {
@@ -640,6 +626,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Kabuba {
@@ -667,6 +654,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Kuzovok {
@@ -694,6 +682,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Lipsfish {
@@ -721,6 +710,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Napoleon {
@@ -748,6 +738,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Nemo {
@@ -775,6 +766,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Parrot {
@@ -802,6 +794,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Platex {
@@ -829,6 +822,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Scolopsis {
@@ -856,6 +850,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Soldiers {
@@ -883,6 +878,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Tuna {
@@ -910,6 +906,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Whisperers {
@@ -937,6 +934,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Zebrosoma {
@@ -964,6 +962,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Dolphin {
@@ -991,6 +990,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .DangerousFishes-box {
@@ -1002,6 +1002,7 @@
   font-stretch: normal;
   flex-basis: max-content;
   justify-content: space-evenly;
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .DangerousFishes-box1 {
@@ -1017,8 +1018,6 @@
 .DangerousFishes-box2 {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   flex-basis: max-content;
@@ -1029,8 +1028,6 @@
 .DangerousFishes-box3 {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   flex-basis: max-content;
@@ -1041,8 +1038,6 @@
 .DangerousFishes-box4 {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   flex-basis: max-content;
@@ -1053,8 +1048,6 @@
 .DangerousFishes-box5 {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   flex-basis: max-content;
@@ -1065,8 +1058,6 @@
 .DangerousFishes-box6 {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   flex-basis: max-content;
@@ -1099,6 +1090,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Baracuda {
@@ -1126,6 +1118,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Crocodile {
@@ -1153,6 +1146,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Hammerfish {
@@ -1180,6 +1174,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Lionfish {
@@ -1207,6 +1202,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Longwingerfish {
@@ -1234,6 +1230,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Murena {
@@ -1261,6 +1258,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Seasnake {
@@ -1288,6 +1286,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Sharksblackfeather {
@@ -1315,6 +1314,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Sharkscow {
@@ -1342,6 +1342,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Sharksmaco {
@@ -1369,6 +1370,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Sharksnuss {
@@ -1396,6 +1398,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Sharkswhite {
@@ -1423,6 +1426,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Sharkszebra {
@@ -1450,6 +1454,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Skat {
@@ -1477,6 +1482,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Skatorlyak {
@@ -1504,6 +1510,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Skatmantu {
@@ -1531,6 +1538,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Spinorog {
@@ -1558,6 +1566,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Whalesharks {
@@ -1585,6 +1594,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Balistod {
@@ -1612,6 +1622,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Stonefish {
@@ -1639,7 +1650,9 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
+
 
 .Surgeon {
   display: flex;
@@ -1666,6 +1679,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Tiggerfish {
@@ -1693,6 +1707,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Tulozure {
@@ -1720,6 +1735,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Longwingedfish {
@@ -1747,6 +1763,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .NoFishes-box {
@@ -1758,6 +1775,7 @@
   font-stretch: normal;
   flex-basis: max-content;
   justify-content: space-evenly;
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .NoFishes-box1 {
@@ -1773,8 +1791,6 @@
 .NoFishes-box2 {
   display: flex;
   flex: auto;
-  color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: row;
   font-stretch: normal;
   flex-basis: max-content;
@@ -1807,6 +1823,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Stars {
@@ -1834,6 +1851,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Squids {
@@ -1861,6 +1879,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Octopus {
@@ -1888,6 +1907,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Mollusks {
@@ -1915,6 +1935,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Corals {
@@ -1942,6 +1963,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .Jellyfish {
@@ -1969,6 +1991,7 @@
   width: 70%;
   padding: 4%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
 .App-logo {

@@ -138,7 +138,7 @@ export const DangerousFishes = () => {
                             <p className="Sharksblackfeather_text">Рифовая акула</p>
                         </div>
                         <div onClick={onSharkscow} className='Sharkscow'>
-                            <p className="Sharkscow_text">Бычь акула</p>
+                            <p className="Sharkscow_text">Бычья акула</p>
                         </div>
                         <div onClick={onSharksmaco} className='Sharksmaco'>
                             <p className="Sharksmaco_text">Акула мако</p>
