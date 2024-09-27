@@ -84,76 +84,76 @@ export const SafeFishes = () => {
     return (
         <div className="h-100 p-5">
             <div className="MagicContainer h-100 w-100">
-                <div className="SafeFishesName">Безопасные рыбы Красного моря</div>
+                <div className="FishesName">Безопасные рыбы Красного моря</div>
 
-                <div className='SafeFishes-box'>
-                    <div className='SafeFishes-box1'>
-                        <div onClick={onAngel} className='Angel'>
-                            <p className="Angel_text">Рыба-ангел</p>
+                <div className='Fishes-box'>
+                    <div className='Box'>
+                        <div onClick={onAngel} className='Angel Fish'>
+                            <p className="Fish_text ">Рыба-ангел</p>
                         </div>
-                        <div onClick={onAntias} className='Antias'>
-                            <p className="Antias_text">Антиас</p>
+                        <div onClick={onAntias} className='Antias Fish'>
+                            <p className="Fish_text ">Антиас</p>
                         </div>
-                        <div onClick={onGrupper} className='Grupper'>
-                            <p className="Grupper_text">Группер</p>
+                        <div onClick={onGrupper} className='Grupper Fish'>
+                            <p className="Fish_text ">Группер</p>
                         </div>
-                        <div onClick={onDolphin} className='Dolphin'>
-                            <p className="Dolphin_text">Дельфин</p>
+                        <div onClick={onDolphin} className='Dolphin Fish'>
+                            <p className="Fish_text ">Дельфин</p>
                         </div>
                     </div>
-                    <div className='SafeFishes-box2'>
-                        <div onClick={onParrot} className='Parrot'>
-                            <p className="Parrot_text">Рыба-попугай</p>
+                    <div className='Box'>
+                        <div onClick={onParrot} className='Parrot Fish'>
+                            <p className="Fish_text ">Рыба-попугай</p>
                         </div>
-                        <div onClick={onTuna} className='Tuna'>
-                            <p className="Tuna_text">Тунец</p>
+                        <div onClick={onTuna} className='Tuna Fish'>
+                            <p className="Fish_text ">Тунец</p>
                         </div>
-                        <div onClick={onSolders} className='Soldiers'>
-                            <p className="Soldiers_text">Солдатики</p>
+                        <div onClick={onSolders} className='Soldiers Fish'>
+                            <p className="Fish_text ">Солдатики</p>
                         </div>
-                        <div onClick={onZebrosoma} className='Zebrosoma'>
-                            <p className="Zebrosoma_text">Зебрасома</p>
-                        </div>
-
-                    </div>
-                    <div className='SafeFishes-box3'>
-                        <div onClick={onNemo} className='Nemo'>
-                            <p className="Nemo_text">Рыба-клоун</p>
-                        </div>
-                        <div onClick={onCezii} className='Cezii'>
-                            <p className="Cezii_text">Цезии</p>
-                        </div>
-                        <div onClick={onKuzovok} className='Kuzovok'>
-                            <p className="Kuzovok_text">Кузовок</p>
-                        </div>
-                        <div onClick={onFlute} className='Flute'>
-                            <p className="Flute_text">Рыба-дудочка</p>
+                        <div onClick={onZebrosoma} className='Zebrosoma Fish'>
+                            <p className="Fish_text ">Зебрасома</p>
                         </div>
 
                     </div>
-                    <div className='SafeFishes-box4'>
-                        <div onClick={onDugon} className='Dugon'>
-                            <p className="Dugon_text">Дюгонь</p>
+                    <div className='Box'>
+                        <div onClick={onNemo} className='Nemo Fish'>
+                            <p className="Fish_text">Рыба-клоун</p>
                         </div>
-                        <div onClick={onPlatex} className='Platex'>
-                            <p className="Platex_text">Платексы</p>
+                        <div onClick={onCezii} className='Cezii Fish'>
+                            <p className="Fish_text">Цезии</p>
                         </div>
-                        <div onClick={onWhisperers} className='Whisperers'>
-                            <p className="Whisperers_text">Шептуны</p>
+                        <div onClick={onKuzovok} className='Kuzovok Fish'>
+                            <p className="Fish_text">Кузовок</p>
                         </div>
-                        <div onClick={onScolopsis} className='Scolopsis'>
-                            <p className="Scolopsis_text">Сколопсис</p>
+                        <div onClick={onFlute} className='Flute Fish'>
+                            <p className="Fish_text">Рыба-дудочка</p>
+                        </div>
+
+                    </div>
+                    <div className='Box'>
+                        <div onClick={onDugon} className='Dugon Fish'>
+                            <p className="Fish_text">Дюгонь</p>
+                        </div>
+                        <div onClick={onPlatex} className='Platex Fish'>
+                            <p className="Fish_text ">Платексы</p>
+                        </div>
+                        <div onClick={onWhisperers} className='Whisperers Fish'>
+                            <p className="Fish_text">Шептуны</p>
+                        </div>
+                        <div onClick={onScolopsis} className='Scolopsis Fish'>
+                            <p className="Fish_text">Сколопсис</p>
                         </div>
                     </div>
-                    <div className='SafeFishes-box5'>
-                        <div onClick={onNapoleon} className='Napoleon'>
-                            <p className="Napoleon_text">Наполеон</p>
+                    <div className='Box'>
+                        <div onClick={onNapoleon} className='Napoleon Fish'>
+                            <p className="Fish_text">Наполеон</p>
                         </div>
-                        <div onClick={onLipsfish} className='Lipsfish'>
-                            <p className="Lipsfish_text">Губаны</p>
+                        <div onClick={onLipsfish} className='Lipsfish Fish'>
+                            <p className="Fish_text">Губаны</p>
                         </div>
-                        <div onClick={onKabuba} className='Kabuba'>
-                            <p className="Kabuba_text">Кабубы</p>
+                        <div onClick={onKabuba} className='Kabuba Fish'>
+                            <p className="Fish_text">Кабубы</p>
                         </div>
                     </div>
                 </div>
