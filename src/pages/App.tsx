@@ -1,11 +1,11 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu'
 import { Route, Routes } from "react-router-dom"
-import './App.css';
-import './menu.css';
+import '../App.css';
+import '../menu.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Magicworld } from "./magicworld";
-import { Layout } from './layout';
+import { Layout } from '../layout';
 import { SafeFishes } from './safe-fishes';
 import { DangerousFishes } from './dangerous-fishes';
 import { NoFishes } from './no-fishes';

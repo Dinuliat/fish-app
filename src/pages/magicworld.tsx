@@ -17,8 +17,8 @@ export const Magicworld = () => {
     }, [navigation])
 
     return (
-        <div className="h-100 p-5">
-            <div className="MagicContainer h-100 w-100">
+        <div className="p-5">
+            <div className="MagicContainer">
 
                 <div className="Search"><input placeholder="поиск" type='text'></input></div>
                 <div className="Banner">
@@ -26,12 +26,15 @@ export const Magicworld = () => {
                 </div>
                 <div className='Section'>
                     <div onClick={onSafeFishes} className='Chapter1 Chapter'>
+                        <img src="image/safe-fishes/kabubas/кабубы2.jpg" width="350" height="250" />
                         <p className="Chapter_text">Безопасные рыбы</p>
                     </div>
                     <div onClick={onDangerousFishes} className='Chapter2 Chapter'>
+                        <img src="image/dangerous-fishes/tigger-fish/тигровая акула6.jpg" width="350" height="250" />
                         <p className="Chapter_text">Опасные рыбы</p>
                     </div>
                     <div onClick={onNoFishes} className='Chapter3 Chapter'>
+                        <img src="image/no-fishes/squids/кальмары6.jpg" width="350" height="250" />
                         <p className="Chapter_text">Не рыбы</p>
                     </div>
                 </div>
