@@ -88,7 +88,7 @@
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
-.Chapter1 {
+/*.Chapter1 {
   background-image: url("../public/image/safe-fishes/kabubas/кабубы2.jpg");
 }
 
@@ -98,7 +98,7 @@
 
 .Chapter3 {
   background-image: url("../public/image/no-fishes/squids/кальмары6.jpg");
-}
+}*/
 
 .FishesName {
   display: flex;
@@ -112,10 +112,10 @@
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
-.Foto {
+*.Foto {
   display: flex;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  /*background-size: 100% 100%;*/
   flex-direction: row;
   justify-content: center;
   height: 80%;
@@ -126,17 +126,17 @@
     2px 4px 16px 0px rgba(0, 0, 0, 0.7);
 }
 
-.Foto0 {
+/*.Foto0 {
   background-image: url("../public/image/dangerous-fishes/murena/мурена6.jpg");
-}
+}*/
 
 /*.Foto1 {
   background-image: url("../public/image/no-fishes/corals/кораллы1.jpg");
 }*/
 
-.Foto2 {
+/*.Foto2 {
   background-image: url("../public/image/dangerous-fishes/whale-sharks/китовая_акула4.jpg");
-}
+}*/
 
 .Box {
   display: flex;
@@ -149,9 +149,9 @@
   justify-content: space-evenly;
 }
 
-.Foto3 {
+/*.Foto3 {
   background-image: url("../public/image/safe-fishes/napoleons/наполеон6.jpg");
-}
+}*/
 
 .Mail {
   display: flex;
@@ -202,18 +202,18 @@
   background-image: url("../public/image/free-icon-vk-725288.png");
 }
 
-.Foto4 {
+/*.Foto4 {
   background-image: url("../public/image/safe-fishes/dugon/дюгонь4.jpg");
-}
+}*/
 
-.Foto5 {
+/*.Foto5 {
   background-image: url("../public/image/dangerous-fishes/skat/скат8.jpg");
-}
+}*/
 
 .Fish {
   display: flex;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  /* background-size: 100% 100%;*/
   flex-direction: row;
   justify-content: flex-end;
   height: 80%;
@@ -237,7 +237,7 @@
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
-.Angel {
+/*.Angel {
   background-image: url("../public/image/safe-fishes/angel/ангел10.jpg");
 }
 
@@ -315,7 +315,7 @@
 
 .Dolphin {
   background-image: url("../public/image/safe-fishes/dolphins/дельфин5.jpg");
-}
+}*/
 
 .Fishes-box {
   display: flex;
@@ -329,7 +329,7 @@
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
-.Arototron {
+/*.Arototron {
   background-image: url("../public/image/dangerous-fishes/arototron/аротрон4.jpg");
 }
 
@@ -369,11 +369,9 @@
   background-image: url("../public/image/dangerous-fishes/sharks-cow/бычья\ акула1.jpg");
 }
 
-
 .Sharksmaco {
   background-image: url("../public/image/dangerous-fishes/sharks-maco/акула\ мако\ 4.jpg");
 }
-
 
 .Sharksnuss {
   background-image: url("../public/image/dangerous-fishes/sharks-nuss/акула\ нянька.jpg");
@@ -430,8 +428,9 @@
 .Longwingedfish {
   background-image: url("../public/image/dangerous-fishes/long-winged-fish/длиннокрылая\ акула1.jpeg");
 }
+*/
 
-.Turtles {
+/*.Turtles {
   background-image: url("../public/image/no-fishes/turtles/морская\ черепаха7.jpg");
 }
 
@@ -457,7 +456,7 @@
 
 .Jellyfish {
   background-image: url("../public/image/no-fishes/Jellyfish/aureliia-aurita.jpg");
-}
+}*/
 
 .App-logo {
   height: 40vmin;
