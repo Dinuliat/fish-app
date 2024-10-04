@@ -1,5 +1,6 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom"
+import { FishImage } from "../components/fish-image"
 
 export const Magicworld = () => {
     const navigation = useNavigate();
@@ -25,21 +26,23 @@ export const Magicworld = () => {
                     <p className="Banner_text">Волшебный подводный мир Красного моря</p>
                 </div>
                 <div className='Section'>
-                    <div onClick={onSafeFishes} className='Chapter1 Chapter'>
-                        <img src="image/safe-fishes/kabubas/кабубы2.jpg" width="350" height="250" />
-                        <p className="Chapter_text">Безопасные рыбы</p>
-                    </div>
-                    <div onClick={onDangerousFishes} className='Chapter2 Chapter'>
-                        <img src="image/dangerous-fishes/tigger-fish/тигровая акула6.jpg" width="350" height="250" />
-                        <p className="Chapter_text">Опасные рыбы</p>
-                    </div>
-                    <div onClick={onNoFishes} className='Chapter3 Chapter'>
-                        <img src="image/no-fishes/squids/кальмары6.jpg" width="350" height="250" />
-                        <p className="Chapter_text">Не рыбы</p>
-                    </div>
+                    <FishImage
+                        src="image/safe-fishes/kabubas/кабубы2.jpg"
+                        onClick={onSafeFishes}
+                        text="Безопасные рыбы"
+                    />
+                    <FishImage
+                        src="image/dangerous-fishes/tigger-fish/тигровая акула6.jpg"
+                        onClick={onDangerousFishes}
+                        text="Безопасные рыбы"
+                    />
+                    <FishImage
+                        src="image/no-fishes/squids/кальмары6.jpg"
+                        onClick={onNoFishes}
+                        text="Не рыбы"
+                    />
                 </div>
             </div>
         </div>
-
     )
 }
