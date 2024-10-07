@@ -7,6 +7,6 @@ type FishImageProp = {
 export const FishImage = (props: FishImageProp) => {
     return <div onClick={props.onClick} className='Chapter'>
         <img src={props.src} width="350" height="250" />
-        <div className="Chapter_text">{props.text}</div>
+        <div className="Fish_text">{props.text}</div>
     </div>
 }

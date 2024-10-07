@@ -50,23 +50,12 @@
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
-.Section {
-  display: flex;
-  flex: auto;
-  flex-direction: row;
-  font-stretch: normal;
-  flex-basis: max-content;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
 .Chapter {
   display: flex;
   position: relative;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 40%;
-  width: 22%;
   flex-direction: row;
   justify-content: flex-end;
   min-width: 215px;
@@ -75,34 +64,6 @@
     2px 4px 8px 0px rgba(0, 0, 0, 0.7),
     2px 4px 16px 0px rgba(0, 0, 0, 0.7);
 }
-
-.Chapter_text {
-  display: flex;
-  position: absolute;
-  top: 0;
-  right: 0;
-  align-items: start;
-  justify-content: right;
-  color: aliceblue;
-  font-weight: 400;
-  font-family: 'Candara', 'Times New Roman', Times, serif;
-  padding: 8%;
-  width: 70%;
-  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
-  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
-}
-
-/*.Chapter1 {
-  background-image: url("../public/image/safe-fishes/kabubas/кабубы2.jpg");
-}
-
-.Chapter2 {
-  background-image: url("../public/image/dangerous-fishes/tigger-fish/тигровая\ акула6.jpg");
-}
-
-.Chapter3 {
-  background-image: url("../public/image/no-fishes/squids/кальмары6.jpg");
-}*/
 
 .FishesName {
   display: flex;
@@ -116,32 +77,6 @@
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
-*.Foto {
-  display: flex;
-  background-repeat: no-repeat;
-  /*background-size: 100% 100%;*/
-  flex-direction: row;
-  justify-content: center;
-  height: 80%;
-  width: 15%;
-  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
-    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
-    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
-    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
-}
-
-/*.Foto0 {
-  background-image: url("../public/image/dangerous-fishes/murena/мурена6.jpg");
-}*/
-
-/*.Foto1 {
-  background-image: url("../public/image/no-fishes/corals/кораллы1.jpg");
-}*/
-
-/*.Foto2 {
-  background-image: url("../public/image/dangerous-fishes/whale-sharks/китовая_акула4.jpg");
-}*/
-
 .Box {
   display: flex;
   flex: auto;
@@ -149,13 +84,9 @@
   font-stretch: normal;
   flex-basis: max-content;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
   justify-content: space-evenly;
 }
-
-/*.Foto3 {
-  background-image: url("../public/image/safe-fishes/napoleons/наполеон6.jpg");
-}*/
 
 .Mail {
   display: flex;
@@ -206,120 +137,21 @@
   background-image: url("../public/image/free-icon-vk-725288.png");
 }
 
-/*.Foto4 {
-  background-image: url("../public/image/safe-fishes/dugon/дюгонь4.jpg");
-}*/
-
-/*.Foto5 {
-  background-image: url("../public/image/dangerous-fishes/skat/скат8.jpg");
-}*/
-
-.Fish {
-  display: flex;
-  background-repeat: no-repeat;
-  /* background-size: 100% 100%;*/
-  flex-direction: row;
-  justify-content: flex-end;
-  height: 80%;
-  width: 15%;
-  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
-    1px 2px 4px 0px rgba(0, 0, 0, 0.7),
-    2px 4px 8px 0px rgba(0, 0, 0, 0.7),
-    2px 4px 16px 0px rgba(0, 0, 0, 0.7);
-}
-
 .Fish_text {
   display: flex;
   align-items: start;
+  position: absolute;
+  top: 0;
+  right: 0;
   justify-content: right;
   color: aliceblue;
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   width: 70%;
-  padding: 4%;
+  padding: 8%;
   font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
-
-/*.Angel {
-  background-image: url("../public/image/safe-fishes/angel/ангел10.jpg");
-}
-
-.Antias {
-  background-image: url("../public/image/safe-fishes/antias/антиас6.jpg");
-}
-
-.Cezii {
-  background-image: url("../public/image/safe-fishes/cezii/цезии4.jpg");
-}
-
-.Dugon {
-  background-image: url("../public/image/safe-fishes/dugon/дюгонь5.jpg");
-}
-
-.Flat-tail {
-  background-image: url("../public/image/safe-fishes/flat-tail/хвост2.jpg");
-}
-
-.Flute {
-  background-image: url("../public/image/safe-fishes/flute/дудочка14.jpg");
-}
-
-.Grupper {
-  background-image: url("../public/image/safe-fishes/gruppers/группер7.jpg");
-}
-
-.Kabuba {
-  background-image: url("../public/image/safe-fishes/kabubas/кабубы2.jpg");
-}
-
-.Kuzovok {
-  background-image: url("../public/image/safe-fishes/kuzovok/кузовок4.jpg");
-}
-
-.Lipsfish {
-  background-image: url("../public/image/safe-fishes/lips-fish/губан2.jpg");
-}
-
-.Napoleon {
-  background-image: url("../public/image/safe-fishes/napoleons/наполеон7.jpg");
-}
-
-.Nemo {
-  background-image: url("../public/image/safe-fishes/nemo/немо4.jpg");
-}
-
-.Parrot {
-  background-image: url("../public/image/safe-fishes/parrot/попугай9.jpg");
-}
-
-.Platex {
-  background-image: url("../public/image/safe-fishes/platex/платекс2.jpg");
-}
-
-.Scolopsis {
-  background-image: url("../public/image/safe-fishes/scolopsis/Scolopsis-ghanam2.jpg");
-}
-
-.Soldiers {
-  background-image: url("../public/image/safe-fishes/soldiers/солдат1.jpg");
-}
-
-.Tuna {
-  background-image: url("../public/image/safe-fishes/tuna/тунец3.jpg");
-}
-
-.Whisperers {
-  background-image: url("../public/image/safe-fishes/whisperers/шептуны2.jpg");
-}
-
-.Zebrosoma {
-  background-image: url("../public/image/safe-fishes/zebrosoma/зебрасомы2.jpg");
-}
-
-.Dolphin {
-  background-image: url("../public/image/safe-fishes/dolphins/дельфин5.jpg");
-}*/
 
 .Fishes-box {
   display: flex;
@@ -332,135 +164,6 @@
   justify-content: space-evenly;
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
-
-/*.Arototron {
-  background-image: url("../public/image/dangerous-fishes/arototron/аротрон4.jpg");
-}
-
-.Baracuda {
-  background-image: url("../public/image/dangerous-fishes/baracuda/баракуда4.jpg");
-}
-
-.Crocodile {
-  background-image: url("../public/image/dangerous-fishes/crocodile/крокодил2.jpg");
-}
-
-.Hammerfish {
-  background-image: url("../public/image/dangerous-fishes/hammer-fish/рыба-молот4.jpg");
-}
-
-.Lionfish {
-  background-image: url("../public/image/dangerous-fishes/lionfish/крылатка3.jpg");
-}
-
-.Longwingerfish {
-  background-image: url("../public/image/dangerous-fishes/long-winged-fish/длиннокрылая\ акула1.jpeg");
-}
-
-.Murena {
-  background-image: url("../public/image/dangerous-fishes/murena/мурена5.jpg");
-}
-
-.Seasnake {
-  background-image: url("../public/image/dangerous-fishes/sea-snake/морская\ змея\ 1.jpg");
-}
-
-.Sharksblackfeather {
-  background-image: url("../public/image/dangerous-fishes/sharks-black-feather/Черноперая_рифовая_акула9.jpg");
-}
-
-.Sharkscow {
-  background-image: url("../public/image/dangerous-fishes/sharks-cow/бычья\ акула1.jpg");
-}
-
-.Sharksmaco {
-  background-image: url("../public/image/dangerous-fishes/sharks-maco/акула\ мако\ 4.jpg");
-}
-
-.Sharksnuss {
-  background-image: url("../public/image/dangerous-fishes/sharks-nuss/акула\ нянька.jpg");
-}
-
-.Sharkswhite {
-  background-image: url("../public/image/dangerous-fishes/sharks-white/белая\ акула1.jpg");
-}
-
-.Sharkszebra {
-  background-image: url("../public/image/dangerous-fishes/sharks-zebra/зебровая\ акула.jpg");
-}
-
-.Skat {
-  background-image: url("../public/image/dangerous-fishes/skat/скат7.jpg");
-}
-
-.Skatorlyak {
-  background-image: url("../public/image/dangerous-fishes/skat/скат\ 12.jpg");
-}
-
-.Skatmantu {
-  background-image: url("../public/image/dangerous-fishes/skat/скат9.jpg");
-}
-
-.Spinorog {
-  background-image: url("../public/image/dangerous-fishes/spinorog/спинорог17.jpg");
-}
-
-.Whalesharks {
-  background-image: url("../public/image/dangerous-fishes/whale-sharks/китовая\ акула6.jpg");
-}
-
-.Balistod {
-  background-image: url("../public/image/dangerous-fishes/spinorog/спинорог9.jpg");
-}
-
-.Stonefish {
-  background-image: url("../public/image/dangerous-fishes/stone-fish/рыба-камень\ 4.jpg");
-}
-
-.Surgeon {
-  background-image: url("../public/image/dangerous-fishes/surgeon/хирург7.jpg");
-}
-
-.Tiggerfish {
-  background-image: url("../public/image/dangerous-fishes/tigger-fish/тигровая\ акула2.jpg");
-}
-
-.Tulozure {
-  background-image: url("../public/image/dangerous-fishes/tulozure/тилозур6.jpg");
-}
-
-.Longwingedfish {
-  background-image: url("../public/image/dangerous-fishes/long-winged-fish/длиннокрылая\ акула1.jpeg");
-}
-*/
-
-/*.Turtles {
-  background-image: url("../public/image/no-fishes/turtles/морская\ черепаха7.jpg");
-}
-
-.Stars {
-  background-image: url("../public/image/no-fishes/stars/звезда3.jpg");
-}
-
-.Squids {
-  background-image: url("../public/image/no-fishes/squids/кальмары1.jpg");
-}
-
-.Octopus {
-  background-image: url("../public/image/no-fishes/octopus/осьминог4.jpg");
-}
-
-.Mollusks {
-  background-image: url("../public/image/no-fishes/mollusks/молюски5.jpg");
-}
-
-.Corals {
-  background-image: url("../public/image/no-fishes/corals/кораллы4.jpg");
-}
-
-.Jellyfish {
-  background-image: url("../public/image/no-fishes/Jellyfish/aureliia-aurita.jpg");
-}*/
 
 .App-logo {
   height: 40vmin;

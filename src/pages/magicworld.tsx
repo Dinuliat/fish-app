@@ -25,7 +25,7 @@ export const Magicworld = () => {
                 <div className="Banner">
                     <p className="Banner_text">Волшебный подводный мир Красного моря</p>
                 </div>
-                <div className='Section'>
+                <div className='Box'>
                     <FishImage
                         src="image/safe-fishes/kabubas/кабубы2.jpg"
                         onClick={onSafeFishes}
