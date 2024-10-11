@@ -19,8 +19,7 @@ export const Magicworld = () => {
 
     return (
         <div className="p-5">
-            <div className="MagicContainer">
-
+            <div className="MagicContainer" style={{ minHeight: "90vh" }}>
                 <div className="Search"><input placeholder="поиск" type='text'></input></div>
                 <div className="Banner">
                     <p className="Banner_text">Волшебный подводный мир Красного моря</p>

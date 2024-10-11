@@ -6,7 +6,7 @@ type LayoutProps = {
 
 export const Layout = ({ children }: LayoutProps) => {
     return (
-        <div className="App">
+        <div className="App" style={{ minHeight: "100vh" }}>
             {children}
         </div>
     )
