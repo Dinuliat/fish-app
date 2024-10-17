@@ -1,6 +1,7 @@
 
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom"
+import { FishImage } from "../components/fish-image"
 
 export const NoFishes = () => {
     const navigation = useNavigate();
@@ -39,36 +40,44 @@ export const NoFishes = () => {
                 <div className="FishesName">Не рыбы</div>
                 <div className='Fishes-box'>
                     <div className='Box'>
-                        <div onClick={onTurtles} className='Turtles Fish'>
-                            <img src="image/no-fishes/turtles/морская черепаха7.jpg" width="350" height="250" />
-                            <p className="Fish_text">Черепаха</p>
-                        </div>
-                        <div onClick={onOctopus} className='Octopus Fish'>
-                            <img src="image/no-fishes/octopus/осьминог4.jpg" width="350" height="250" />
-                            <p className="Fish_text">Осьминог</p>
-                        </div>
-                        <div onClick={onSquids} className='Squids Fish'>
-                            <img src="image/no-fishes/squids/кальмары1.jpg" width="350" height="250" />
-                            <p className="Fish_text">Кальмар</p>
-                        </div>
-                        <div onClick={onJellyfish} className='Jellyfish Fish'>
-                            <img src="image/no-fishes/Jellyfish/aureliia-aurita.jpg" width="350" height="250" />
-                            <p className="Fish_text">Медузы</p>
-                        </div>
+                        <FishImage
+                            src="image/no-fishes/turtles/морская черепаха7.jpg"
+                            onClick={onTurtles}
+                            text="Черепаха"
+                        />
+                        <FishImage
+                            src="image/no-fishes/octopus/осьминог4.jpg"
+                            onClick={onOctopus}
+                            text="Осьминог"
+                        />
+                        <FishImage
+                            src="image/no-fishes/squids/кальмары1.jpg"
+                            onClick={onSquids}
+                            text="Кальмар"
+                        />
+                        <FishImage
+                            src="image/no-fishes/Jellyfish/aureliia-aurita.jpg"
+                            onClick={onJellyfish}
+                            text="Медузы"
+                        />
                     </div>
                     <div className='Box'>
-                        <div onClick={onCorals} className='Corals Fish'>
-                            <img src="image/no-fishes/corals/кораллы4.jpg" width="350" height="250" />
-                            <p className="Fish_text">Кораллы</p>
-                        </div>
-                        <div onClick={onMollusks} className='Mollusks Fish'>
-                            <img src="image/no-fishes/mollusks/молюски5.jpg" width="350" height="250" />
-                            <p className="Fish_text">Моллюски</p>
-                        </div>
-                        <div onClick={onStars} className='Stars Fish'>
-                            <img src="image/no-fishes/stars/звезда3.jpg" width="350" height="250" />
-                            <p className="Fish_text">Звезды</p>
-                        </div>
+                        <FishImage
+                            src="image/no-fishes/corals/кораллы4.jpg"
+                            onClick={onCorals}
+                            text="Кораллы"
+                        />
+                        <FishImage
+                            src="image/no-fishes/mollusks/молюски5.jpg"
+                            onClick={onMollusks}
+                            text="Моллюски"
+                        />
+                        <FishImage
+                            src="image/no-fishes/stars/звезда3.jpg"
+                            onClick={onStars}
+                            text="Звезды"
+                        />
+
                     </div>
 
                 </div>
