@@ -83,7 +83,7 @@ export const SafeFishes = () => {
     }, [navigation])
 
     return (
-        <div className="p-5">
+        <div className="p-1">
             <div className="MagicContainer">
                 <div className="FishesName">Безопасные рыбы Красного моря</div>
                 <div className='Fishes-box'>

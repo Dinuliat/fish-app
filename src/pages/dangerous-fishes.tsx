@@ -102,7 +102,7 @@ export const DangerousFishes = () => {
     }, [navigation])
 
     return (
-        <div className="pt-5 px-5">
+        <div className="p-1">
             <div className="MagicContainer">
                 <div className="FishesName">Опасные рыбы Красного моря</div>
                 <div className='Fishes-box'>
@@ -232,10 +232,6 @@ export const DangerousFishes = () => {
                             onClick={onBalistod}
                             text="Балистод"
                         />
-                        <div onClick={onSpinorog} className='Spinorog Chapter'>
-                            <img src="image/dangerous-fishes/spinorog/спинорог17.jpg" width="350" height="250" />
-                            <p className="Fish_text">Спинорог</p>
-                        </div>
                         <FishImage
                             src="image/dangerous-fishes/spinorog/спинорог17.jpg"
                             onClick={onSpinorog}
