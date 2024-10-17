@@ -1,7 +1,7 @@
 export const Contacts = () => {
     return (
-        <div className="p-5">
-            <div className="MagicContainer" style={{ minHeight: "90vh" }}>
+        <div className="p-1">
+            <div className="MagicContainer" style={{ minHeight: "100vh" }}>
                 <div className="FishesName">Контакты</div>
                 <div className='Fishes-box'>
                     <div className="Box">

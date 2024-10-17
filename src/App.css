@@ -1,3 +1,98 @@
+@media all and (min-width: 300px) {
+  .Fishes-box {
+    height: 240px;
+  }
+
+  img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .Banner_text {
+    font-size: clamp(2.5rem, 0.25rem + 2vw, 2rem);
+  }
+
+  .Fish_text {
+    font-size: clamp(0.75rem, 0.55rem + 4vw, 4rem);
+  }
+
+  .FishesName {
+    font-size: clamp(2.5rem, 0.25rem + 2vw, 2rem);
+  }
+
+  .Search input {
+    font-size: clamp(1rem, 0.25rem + 2vw, 2rem);
+  }
+
+  .MagicContainer {
+    margin: 20px;
+  }
+}
+
+@media all and (min-width: 768px) {
+
+  .Fishes-box {
+    height: 360px;
+  }
+
+  .Banner_text {
+    font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);
+  }
+
+  .Fish_text {
+    font-size: clamp(0.75rem, 0.55rem + 3vw, 4rem);
+  }
+
+  .FishesName {
+    font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);
+  }
+
+  .Search input {
+    font-size: clamp(1.5rem, 0.25rem + 2vw, 2rem);
+  }
+
+  img {
+    width: 350px;
+    height: 250px;
+  }
+
+  .MagicContainer {
+    margin: 30px;
+  }
+}
+
+@media all and (min-width: 960px) {
+
+  .Fishes-box {
+    height: 480px;
+  }
+
+  .Fish_text {
+    font-size: clamp(0.75rem, 0.45rem + 2vw, 2.5rem);
+  }
+
+  .Banner_text {
+    font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);
+  }
+
+  .FishesName {
+    font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);
+  }
+
+  img {
+    width: 420px;
+    height: 320px;
+  }
+
+  .Search input {
+    font-size: clamp(1.5rem, 0.25rem + 2vw, 2rem);
+  }
+
+  .MagicContainer {
+    margin: 40px;
+  }
+}
+
 .App {
   text-align: center;
   background-color: rgb(3, 19, 75);
@@ -6,6 +101,8 @@
 .MagicContainer {
   display: flex;
   flex-direction: column;
+  flex: auto;
+  font-stretch: normal;
   background-image: url("../public/image/Meduza_2-fentazi.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -13,6 +110,7 @@
     1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     2px 4px 8px 0px rgba(0, 0, 0, 0.7),
     2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+
 }
 
 .Search {
@@ -25,11 +123,11 @@
 .Search input {
   display: flex;
   align-items: center;
-  height: 40px;
-  width: 22%;
+  /*height: 40px;
+  width: 22%;*/
   background-color: rgba(9, 39, 170, 0.6);
   color: aqua;
-  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  /*font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);*/
   font-weight: 500;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
 }
@@ -46,7 +144,7 @@
   font-weight: 400;
   font-family: 'Candara', 'Times New Roman', Times, serif;
   padding: 60px;
-  font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);
+  /*font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);*/
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
@@ -57,6 +155,8 @@
   background-size: 100% 100%;
   height: 40%;
   flex-direction: row;
+  flex-wrap: wrap;
+  grid-gap: 20px;
   justify-content: flex-end;
   min-width: 215px;
   box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
@@ -68,19 +168,22 @@
 .FishesName {
   display: flex;
   color: aliceblue;
-  font-size: 75px;
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   padding: 100px;
   align-items: center;
   justify-content: center;
+  /*font-size: clamp(4.75rem, 0.25rem + 2vw, 2rem);*/
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
+
 }
 
 .Box {
   display: flex;
   flex: auto;
   flex-direction: row;
+  flex-wrap: wrap;
+  grid-gap: 20px;
   font-stretch: normal;
   flex-basis: max-content;
   align-items: center;
@@ -149,7 +252,7 @@
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   width: 70%;
   padding: 8%;
-  font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+  /*font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);*/
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
