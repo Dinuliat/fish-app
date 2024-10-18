@@ -35,8 +35,8 @@ export const NoFishes = () => {
     }, [navigation])
 
     return (
-        <div className="p-5">
-            <div className="MagicContainer">
+        <div className="p-1">
+            <div className="MagicContainer" style={{ minHeight: "100vh" }}>
                 <div className="FishesName">Не рыбы</div>
                 <div className='Fishes-box'>
                     <div className='Box'>
