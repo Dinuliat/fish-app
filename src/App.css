@@ -72,16 +72,16 @@
   }
 
   .Banner_text {
-    font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);
+    font-size: clamp(5.5rem, 0.25rem + 4vw, 4rem);
   }
 
   .FishesName {
-    font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);
+    font-size: clamp(5.5rem, 0.25rem + 4vw, 4rem);
   }
 
   img {
-    width: 420px;
-    height: 320px;
+    width: 520px;
+    height: 420px;
   }
 
   .Search input {
@@ -144,7 +144,6 @@
   font-weight: 400;
   font-family: 'Candara', 'Times New Roman', Times, serif;
   padding: 60px;
-  /*font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);*/
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
@@ -173,7 +172,6 @@
   padding: 100px;
   align-items: center;
   justify-content: center;
-  /*font-size: clamp(4.75rem, 0.25rem + 2vw, 2rem);*/
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 
 }
@@ -252,7 +250,6 @@
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   width: 70%;
   padding: 8%;
-  /*font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);*/
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
@@ -302,4 +299,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.circle1 {
+  background-color: rgb(143, 146, 143);
+  height: 700px;
+  width: 700px;
+  border-radius: 50%;
+  font-size: 500%;
+  position: relative;
+  box-shadow: inset -10px -10px 100px #040013, 10px 10px 20px rgb(11, 2, 35), inset 0px 0px 10px rgb(0, 2, 9);
+  display: inline-block;
+  margin: 20%;
+}
+
+.circle2 {
+  background-color: rgb(8, 163, 6);
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  font-size: 500%;
+  position: relative;
+  top: 100px;
+  box-shadow: inset -10px -10px 100px #01240b, 10px 10px 20px rgb(1, 18, 5), inset 0px 0px 10px rgb(0, 16, 5);
+  display: inline-block;
+}
+
+.circle3 {
+  background-color: rgb(241, 31, 87);
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  font-size: 500%;
+  position: absolute;
+  bottom: 350px;
+  left: 60%;
+  box-shadow: inset -10px -10px 100px #2e030e, 10px 10px 20px rgb(19, 1, 1), inset 0px 0px 10px rgb(16, 0, 7);
+  display: inline-block;
+}
+
+.number {
+  font-size: 150px;
+  color: #000;
 }
