@@ -342,3 +342,48 @@
   font-size: 150px;
   color: #000;
 }
+
+.Pages {
+  display: flex;
+  flex: auto;
+  font-stretch: normal;
+  background-size: 100% 100%;
+}
+
+.Menu1 {
+  display: flex;
+  background-color: rgb(19, 2, 84);
+  flex-direction: column;
+}
+
+.Page {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Header {
+  display: flex;
+  background-color: rgb(34, 5, 151);
+  height: 100px;
+  flex-direction: row;
+}
+
+.Body {
+  display: flex;
+  background-color: rgb(74, 40, 212);
+  flex-direction: row;
+
+}
+
+.Futer {
+  display: flex;
+  background-color: rgb(34, 5, 151);
+  height: 100px;
+  flex-direction: row;
+}
+
+.text {
+  font-size: 80px;
+  color: #20e6dc;
+}
