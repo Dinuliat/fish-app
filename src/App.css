@@ -345,45 +345,73 @@
 
 .Pages {
   display: flex;
-  flex: auto;
-  font-stretch: normal;
-  background-size: 100% 100%;
+  min-height: 100vh;
+  flex-basis: max-content;
 }
 
 .Menu1 {
   display: flex;
-  background-color: rgb(19, 2, 84);
+  width: 100%;
+  background-color: rgb(39, 4, 71);
   flex-direction: column;
-}
+  flex-basis: max-content;
+  flex-grow: 1;
+  justify-content: center;
+  }
 
 .Page {
   display: flex;
   flex-direction: column;
-
+  flex-basis: max-content;
+  flex-grow: 3;
+  width: 100%;
+  justify-content: center;
+  
 }
 
 .Header {
   display: flex;
-  background-color: rgb(34, 5, 151);
+  background-color: rgb(57, 15, 124);
   height: 100px;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .Body {
   display: flex;
+  height: 100%;
   background-color: rgb(74, 40, 212);
   flex-direction: row;
-
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
 }
 
 .Futer {
   display: flex;
-  background-color: rgb(34, 5, 151);
+  background-color: rgb(57, 15, 124);
   height: 100px;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .text {
-  font-size: 80px;
+  font-size: 40px;
   color: #20e6dc;
+  
+}
+.cat {
+background-image: url(../public/image/free-icon-cat-7179688.png);
+display: flex;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+flex-direction: row;
+justify-content: center;
+margin: 5px;
+height: 48px;
+width: 48px;
+
+
 }
