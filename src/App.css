@@ -357,7 +357,7 @@
   flex-basis: max-content;
   flex-grow: 1;
   justify-content: center;
-  }
+}
 
 .Page {
   display: flex;
@@ -366,7 +366,7 @@
   flex-grow: 3;
   width: 100%;
   justify-content: center;
-  
+
 }
 
 .Header {
@@ -380,7 +380,7 @@
 
 .Body {
   display: flex;
-  height: 100%;
+  height: stretch;
   background-color: rgb(74, 40, 212);
   flex-direction: row;
   justify-content: center;
@@ -400,18 +400,30 @@
 .text {
   font-size: 40px;
   color: #20e6dc;
-  
+
 }
+
 .cat {
-background-image: url(../public/image/free-icon-cat-7179688.png);
-display: flex;
-background-repeat: no-repeat;
-background-size: 100% 100%;
-flex-direction: row;
-justify-content: center;
-margin: 5px;
-height: 48px;
-width: 48px;
+  background-image: url(../public/image/free-icon-cat-7179688.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+  height: 48px;
+  width: 48px;
+}
 
+ul {
+  font-size: 25px;
+  color: #20e6dc;
+  list-style-type: none;
+}
 
+.Line {
+  height: 30px;
+  color: #20e6dc;
+  font-size: 20px;
+  justify-content: center;
 }
