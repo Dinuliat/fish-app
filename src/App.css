@@ -380,12 +380,13 @@
 
 .Body {
   display: flex;
-  height: 100%;
+  height: stretch;
   background-color: rgb(74, 40, 212);
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  overflow-y: scroll;
+  overflow-y:scroll;
+  flex-grow: 1;
 }
 
 .Futer {
