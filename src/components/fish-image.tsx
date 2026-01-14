@@ -1,7 +1,7 @@
 type FishImageProp = {
-    text: string;
+    text?: string;
     src: string;
-    onClick: () => void;
+    onClick?: () => void;
 }
 
 export const FishImage = (props: FishImageProp) => {

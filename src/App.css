@@ -56,6 +56,7 @@
     height: 250px;
   }
 
+
   .MagicContainer {
     margin: 30px;
   }
@@ -79,10 +80,12 @@
     font-size: clamp(5.5rem, 0.25rem + 4vw, 4rem);
   }
 
+  
   img {
-    width: 520px;
-    height: 420px;
+    width: 420px;
+    height: 320px;
   }
+  
 
   .Search input {
     font-size: clamp(1.5rem, 0.25rem + 2vw, 2rem);
@@ -162,6 +165,16 @@
     1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     2px 4px 8px 0px rgba(0, 0, 0, 0.7),
     2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.Text-description {
+  display: flex;
+  color: rgb(186, 236, 243);
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 50px;
+  text-align: justify;
+  
 }
 
 .FishesName {

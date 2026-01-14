@@ -31,7 +31,7 @@ export const Magicworld = () => {
                         text="Безопасные рыбы"
                     />
                     <FishImage
-                        src="image/dangerous-fishes/tigger-fish/тигровая акула6.jpg"
+                        src="image/dangerous-fishes/tigger-fish/тигровая акула (6).jpg"
                         onClick={onDangerousFishes}
                         text="Опасные рыбы"
                     />

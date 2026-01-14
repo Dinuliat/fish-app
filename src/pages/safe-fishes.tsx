@@ -7,79 +7,83 @@ export const SafeFishes = () => {
     const navigation = useNavigate();
 
     const onAngel = useCallback(() => {
-        navigation("/angel")
+        navigation("/fish/angel")
     }, [navigation])
 
     const onAntias = useCallback(() => {
-        navigation("/antias")
+        navigation("/fish/antias")
     }, [navigation])
 
     const onGrupper = useCallback(() => {
-        navigation("/grupper")
+        navigation("/fish/grupper")
     }, [navigation])
 
     const onDolphin = useCallback(() => {
-        navigation("/dolphin")
+        navigation("/fish/dolphin")
     }, [navigation])
 
     const onNapoleon = useCallback(() => {
-        navigation("/napoleon")
+        navigation("/fish/napoleon")
     }, [navigation])
 
     const onParrot = useCallback(() => {
-        navigation("/parrot")
+        navigation("/fish/parrot")
     }, [navigation])
 
     const onTuna = useCallback(() => {
-        navigation("/tuna")
+        navigation("/fish/tuna")
     }, [navigation])
 
     const onSolders = useCallback(() => {
-        navigation("/solders")
+        navigation("/fish/solders")
     }, [navigation])
 
     const onZebrosoma = useCallback(() => {
-        navigation("/zebrosoma")
+        navigation("/fish/zebrosoma")
     }, [navigation])
 
     const onKabuba = useCallback(() => {
-        navigation("/kabuba")
+        navigation("/fish/kabuba")
     }, [navigation])
 
     const onNemo = useCallback(() => {
-        navigation("/nemo")
+        navigation("/fish/nemo")
     }, [navigation])
 
     const onCezii = useCallback(() => {
-        navigation("/Cezii")
+        navigation("/fish/cezii")
     }, [navigation])
 
     const onDugon = useCallback(() => {
-        navigation("/dugon")
+        navigation("/fish/dugon")
     }, [navigation])
 
     const onFlute = useCallback(() => {
-        navigation("/flute")
+        navigation("/fish/flute")
     }, [navigation])
 
     const onKuzovok = useCallback(() => {
-        navigation("/kuzovok")
+        navigation("/fish/kuzovok")
     }, [navigation])
 
     const onLipsfish = useCallback(() => {
-        navigation("/lipsfish")
+        navigation("/fish/lipsfish")
     }, [navigation])
 
     const onPlatex = useCallback(() => {
-        navigation("/platex")
+        navigation("/fish/platex")
     }, [navigation])
 
     const onWhisperers = useCallback(() => {
-        navigation("/whisperers")
+        navigation("/fish/whisperers")
     }, [navigation])
 
     const onScolopsis = useCallback(() => {
-        navigation("/scolopsis")
+        navigation("/fish/scolopsis")
+    }, [navigation])
+
+    const onAluter = useCallback(() => {
+        navigation("/fish/aluter")
     }, [navigation])
 
     return (
@@ -101,7 +105,7 @@ export const SafeFishes = () => {
                         <FishImage
                             src="image/safe-fishes/gruppers/группер7.jpg"
                             onClick={onGrupper}
-                            text="Группер"
+                            text="Групер"
                         />
                         <FishImage
                             src="image/safe-fishes/dolphins/дельфин5.jpg"
@@ -118,12 +122,12 @@ export const SafeFishes = () => {
                         <FishImage
                             src="image/safe-fishes/tuna/тунец3.jpg"
                             onClick={onTuna}
-                            text="Тунец"
+                            text="Каранкс"
                         />
                         <FishImage
                             src="image/safe-fishes/soldiers/солдат1.jpg"
                             onClick={onSolders}
-                            text="Солдатики"
+                            text="Рыба-солдат"
                         />
                         <FishImage
                             src="image/safe-fishes/zebrosoma/зебрасомы2.jpg"
@@ -150,7 +154,7 @@ export const SafeFishes = () => {
                         <FishImage
                             src="image/safe-fishes/flute/дудочка14.jpg"
                             onClick={onFlute}
-                            text="Рыба-дудочка"
+                            text="Рыба-флейта"
                         />
                     </div>
                     <div className='Box'>
@@ -162,7 +166,7 @@ export const SafeFishes = () => {
                         <FishImage
                             src="image/safe-fishes/platex/платекс2.jpg"
                             onClick={onPlatex}
-                            text="Платексы"
+                            text="Платаксы"
                         />
                         <FishImage
                             src="image/safe-fishes/whisperers/шептуны2.jpg"
@@ -184,13 +188,19 @@ export const SafeFishes = () => {
                         <FishImage
                             src="image/safe-fishes/lips-fish/губан2.jpg"
                             onClick={onLipsfish}
-                            text="Губаны"
+                            text="Губановые"
                         />
                         <FishImage
                             src="image/safe-fishes/kabubas/кабубы2.jpg"
                             onClick={onKabuba}
                             text="Кабубы"
                         />
+                        <FishImage
+                            src="image/safe-fishes/aluter/хвост (3).jpg"
+                            onClick={onAluter}
+                            text="Расписные алутеры"
+                        />
+
                     </div>
                 </div>
             </div>
