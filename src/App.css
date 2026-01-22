@@ -1,104 +1,352 @@
-@media all and (min-width: 300px) {
+/* Базовые стили для малых экранов (до 480px) */
+@media all and (max-width: 479px) {
+  .Fishes-box {
+    height: 200px;
+  }
+
+  img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+  }
+
+  .Banner_text {
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    padding: 15px;
+  }
+
+  .Fish_text {
+    font-size: clamp(0.875rem, 3.5vw, 1.25rem);
+    padding: 5%;
+    width: 80%;
+    z-index: 1;
+  }
+
+  .FishesName {
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    padding: 40px 20px;
+  }
+
+  .Search {
+    padding: 15px;
+  }
+
+  .Search input {
+    font-size: clamp(0.875rem, 4vw, 1.25rem);
+    width: 100%;
+    padding: 10px;
+  }
+
+  .MagicContainer {
+    padding: 0;
+  }
+
+  .Box {
+    padding: 10px 10px 30px;
+    gap: 15px;
+  }
+
+  .Chapter {
+    width: calc(100vw - 40px);
+    height: calc(100vw - 40px);
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .Text-description {
+    font-size: clamp(1rem, 4vw, 1.25rem);
+    padding: 20px;
+  }
+
+  .Email {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+  }
+
+  .circle1 {
+    height: 300px;
+    width: 300px;
+    margin: 10%;
+  }
+
+  .circle2 {
+    height: 200px;
+    width: 200px;
+    top: 50px;
+  }
+
+  .circle3 {
+    height: 100px;
+    width: 100px;
+    bottom: 150px;
+    left: 55%;
+  }
+
+  .number {
+    font-size: 60px;
+  }
+}
+
+/* Стили для экранов от 480px до 767px */
+@media all and (min-width: 480px) and (max-width: 767px) {
   .Fishes-box {
     height: 240px;
   }
 
   img {
-    width: 250px;
-    height: 200px;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
   }
 
   .Banner_text {
-    font-size: clamp(2.5rem, 0.25rem + 2vw, 2rem);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    padding: 20px;
   }
 
   .Fish_text {
-    font-size: clamp(0.75rem, 0.55rem + 4vw, 4rem);
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    padding: 6%;
+    width: 75%;
+    z-index: 1;
   }
 
   .FishesName {
-    font-size: clamp(2.5rem, 0.25rem + 2vw, 2rem);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    padding: 60px 30px;
+  }
+
+  .Search {
+    padding: 20px;
   }
 
   .Search input {
-    font-size: clamp(1rem, 0.25rem + 2vw, 2rem);
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    width: 90%;
+    padding: 12px;
   }
 
   .MagicContainer {
-    margin: 20px;
+    padding: 0;
+  }
+
+  .Box {
+    padding: 15px 15px 30px;
+    gap: 18px;
+  }
+
+  .Chapter {
+    width: calc(50vw - 30px);
+    height: calc(50vw - 30px);
+    max-width: 280px;
+    max-height: 280px;
+  }
+
+  .Text-description {
+    font-size: clamp(1.125rem, 4vw, 1.5rem);
+    padding: 30px;
+  }
+
+  .circle1 {
+    height: 400px;
+    width: 400px;
+    margin: 15%;
+  }
+
+  .circle2 {
+    height: 280px;
+    width: 280px;
+    top: 60px;
+  }
+
+  .circle3 {
+    height: 140px;
+    width: 140px;
+    bottom: 200px;
+  }
+
+  .number {
+    font-size: 80px;
   }
 }
 
-@media all and (min-width: 768px) {
-
+/* Стили для планшетов (768px - 959px) */
+@media all and (min-width: 768px) and (max-width: 959px) {
   .Fishes-box {
     height: 360px;
   }
 
   .Banner_text {
-    font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);
+    font-size: clamp(3rem, 5vw, 4.5rem);
+    padding: 25px;
   }
 
   .Fish_text {
-    font-size: clamp(0.75rem, 0.55rem + 3vw, 4rem);
+    font-size: clamp(1.125rem, 3vw, 1.75rem);
+    padding: 7%;
+    width: 70%;
+    z-index: 1;
   }
 
   .FishesName {
-    font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);
+    font-size: clamp(3rem, 5vw, 4.5rem);
+    padding: 80px 40px;
+  }
+
+  .Search {
+    padding: 25px;
   }
 
   .Search input {
-    font-size: clamp(1.5rem, 0.25rem + 2vw, 2rem);
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    width: 80%;
+    padding: 15px;
   }
 
   img {
-    width: 350px;
-    height: 250px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
   }
 
-
   .MagicContainer {
-    margin: 30px;
+    padding: 0;
+  }
+
+  .Box {
+    padding: 18px 18px 40px;
+    gap: 20px;
+  }
+
+  .Chapter {
+    width: 320px;
+    height: 320px;
+  }
+
+  .Text-description {
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    padding: 40px;
+  }
+
+  .circle1 {
+    height: 550px;
+    width: 550px;
+    margin: 18%;
+  }
+
+  .circle2 {
+    height: 380px;
+    width: 380px;
+    top: 85px;
+  }
+
+  .circle3 {
+    height: 190px;
+    width: 190px;
+    bottom: 280px;
+  }
+
+  .number {
+    font-size: 120px;
   }
 }
 
-@media all and (min-width: 960px) {
-
+/* Стили для средних десктопов (960px - 1279px) */
+@media all and (min-width: 960px) and (max-width: 1279px) {
   .Fishes-box {
     height: 480px;
   }
 
   .Fish_text {
-    font-size: clamp(0.75rem, 0.45rem + 2vw, 2.5rem);
+    font-size: clamp(1.25rem, 2.5vw, 2rem);
+    padding: 8%;
   }
 
   .Banner_text {
-    font-size: clamp(5.5rem, 0.25rem + 4vw, 4rem);
+    font-size: clamp(4rem, 4vw, 5.5rem);
+    padding: 30px;
   }
 
   .FishesName {
-    font-size: clamp(5.5rem, 0.25rem + 4vw, 4rem);
+    font-size: clamp(4rem, 4vw, 5.5rem);
+    padding: 100px;
   }
 
-  
   img {
-    width: 420px;
-    height: 320px;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
   }
-  
+
+  .Search {
+    padding: 30px;
+  }
 
   .Search input {
-    font-size: clamp(1.5rem, 0.25rem + 2vw, 2rem);
+    font-size: clamp(1.5rem, 2vw, 2rem);
+    width: 70%;
   }
 
   .MagicContainer {
-    margin: 40px;
+    padding: 0;
+  }
+
+  .Text-description {
+    font-size: clamp(1.375rem, 2.5vw, 1.875rem);
+  }
+}
+
+/* Стили для больших экранов (от 1280px) */
+@media all and (min-width: 1280px) {
+  .Fishes-box {
+    height: 540px;
+  }
+
+  .Fish_text {
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
+  }
+
+  .Banner_text {
+    font-size: clamp(5rem, 3vw, 6.5rem);
+  }
+
+  .FishesName {
+    font-size: clamp(5rem, 3vw, 6.5rem);
+  }
+
+  img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .Search input {
+    font-size: clamp(1.75rem, 2vw, 2.25rem);
+    width: 60%;
+  }
+
+  .MagicContainer {
+    padding: 0;
+  }
+
+  .Text-description {
+    font-size: clamp(1.5rem, 2vw, 2rem);
+    padding: 60px;
+  }
+
+  .circle1 {
+    height: 700px;
+    width: 700px;
   }
 }
 
 .App {
   text-align: center;
   background-color: rgb(3, 19, 75);
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
 }
 
 .MagicContainer {
@@ -108,31 +356,49 @@
   font-stretch: normal;
   background-image: url("../public/image/Meduza_2-fentazi.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     2px 4px 8px 0px rgba(0, 0, 0, 0.7),
     2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
 
+/* Главная страница с фиксированной высотой */
+.MagicContainer.main-page {
+  height: 100vh;
+  overflow-y: auto;
 }
 
 .Search {
-  padding: 80px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
 }
 
 .Search input {
   display: flex;
   align-items: center;
-  /*height: 40px;
-  width: 22%;*/
   background-color: rgba(9, 39, 170, 0.6);
   color: aqua;
-  /*font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);*/
   font-weight: 500;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  border: 2px solid rgba(0, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 .Search input::placeholder {
@@ -146,25 +412,54 @@
   color: aliceblue;
   font-weight: 400;
   font-family: 'Candara', 'Times New Roman', Times, serif;
-  padding: 60px;
+  padding: 20px;
+  margin: 0;
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
 }
 
 .Chapter {
   display: flex;
   position: relative;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 40%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  grid-gap: 20px;
-  justify-content: flex-end;
-  min-width: 215px;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex: 0 1 auto;
+  width: 350px;
+  height: 350px;
+  aspect-ratio: 1/1;
   box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     2px 4px 8px 0px rgba(0, 0, 0, 0.7),
     2px 4px 16px 0px rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.Chapter:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.9),
+    2px 4px 8px 0px rgba(0, 0, 0, 0.9),
+    4px 8px 16px 0px rgba(0, 0, 0, 0.9),
+    4px 8px 32px 0px rgba(0, 0, 0, 0.9);
+}
+
+.Chapter img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 .Text-description {
@@ -191,15 +486,18 @@
 
 .Box {
   display: flex;
-  flex: auto;
+  flex: 1 1 auto;
   flex-direction: row;
   flex-wrap: wrap;
-  grid-gap: 20px;
+  gap: 20px;
   font-stretch: normal;
-  flex-basis: max-content;
   align-items: center;
   padding: 20px;
-  justify-content: space-evenly;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
 }
 
 .Mail {
@@ -264,6 +562,7 @@
   width: 70%;
   padding: 8%;
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
+  z-index: 1;
 }
 
 .Fishes-box {
@@ -273,9 +572,9 @@
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   flex-direction: column;
   font-stretch: normal;
-  flex-basis: max-content;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
+  width: 100%;
 }
 
 .App-logo {
@@ -440,4 +739,136 @@ ul {
   color: #20e6dc;
   font-size: 20px;
   justify-content: center;
+}
+
+/* Результаты поиска */
+.search-results {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1 1 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.search-results-header {
+  color: aliceblue;
+  font-family: 'Candara', 'Times New Roman', Times, serif;
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 500;
+  text-align: center;
+  padding: 15px 20px;
+  background-color: rgba(9, 39, 170, 0.3);
+  margin: 0 20px 10px;
+  border-radius: 8px;
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
+}
+
+.search-no-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-family: 'Candara', 'Times New Roman', Times, serif;
+  padding: 60px 20px;
+  text-align: center;
+  flex: 1;
+}
+
+.search-no-results p {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  margin: 10px 0;
+  text-shadow: rgb(2, 1, 21) 2px 3px 4px;
+}
+
+.search-hint {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  opacity: 0.8;
+  font-style: italic;
+}
+
+/* Адаптивные стили для результатов поиска */
+@media all and (max-width: 479px) {
+  .search-results-header {
+    padding: 10px 15px;
+    margin: 0 10px 10px;
+    font-size: clamp(1rem, 4vw, 1.25rem);
+  }
+
+  .search-no-results {
+    padding: 40px 15px;
+  }
+}
+
+/* Контейнер для пузырьков */
+.bubbles-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Стили пузырьков */
+.bubble {
+  position: absolute;
+  bottom: -100px;
+  background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.8), rgba(0, 255, 255, 0.3), rgba(0, 150, 255, 0.2));
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: float-up linear infinite;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
+              0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+/* Анимация всплытия пузырьков */
+@keyframes float-up {
+  0% {
+    bottom: -100px;
+    opacity: 0;
+    transform: translateX(0) scale(1);
+  }
+
+  10% {
+    opacity: 0.6;
+  }
+
+  25% {
+    transform: translateX(-20px) scale(1.1);
+  }
+
+  50% {
+    transform: translateX(20px) scale(0.9);
+  }
+
+  75% {
+    transform: translateX(-15px) scale(1.05);
+  }
+
+  90% {
+    opacity: 0.4;
+  }
+
+  100% {
+    bottom: 110vh;
+    opacity: 0;
+    transform: translateX(10px) scale(0.8);
+  }
+}
+
+/* Дополнительные вариации пузырьков */
+.bubble:nth-child(3n) {
+  background: radial-gradient(circle at 35% 25%, rgba(255, 255, 255, 0.9), rgba(100, 200, 255, 0.4), rgba(0, 100, 200, 0.2));
+}
+
+.bubble:nth-child(3n+1) {
+  background: radial-gradient(circle at 25% 35%, rgba(255, 255, 255, 0.85), rgba(150, 220, 255, 0.35), rgba(50, 150, 255, 0.2));
+}
+
+.bubble:nth-child(3n+2) {
+  background: radial-gradient(circle at 40% 30%, rgba(255, 255, 255, 0.75), rgba(0, 180, 255, 0.4), rgba(0, 120, 200, 0.25));
 }

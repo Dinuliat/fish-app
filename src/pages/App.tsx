@@ -10,7 +10,7 @@ import { SafeFishes } from './safe-fishes';
 import { DangerousFishes } from './dangerous-fishes';
 import { NoFishes } from './no-fishes';
 import { Contacts } from './contacts';
-import { Fish } from '../components/fish';
+import { FishV2 } from '../components/fish-v2';
 
 
 
@@ -35,7 +35,7 @@ function App() {
                     <Route path='/no-fishes' element={<Layout><NoFishes /></Layout>} />
                     <Route path='/contacts' element={<Layout><Contacts /></Layout>} />
 
-                    <Route path='/fish/:fishName' element={<Layout><Fish /></Layout>} />
+                    <Route path='/fish/:fishName' element={<Layout><FishV2 /></Layout>} />
 
                     {/*<Route path='/contacts' element={<Layout><Corals /></Layout>} />
                     <Route path='/contacts' element={<Layout><Jelly-fish /></Layout>} />
