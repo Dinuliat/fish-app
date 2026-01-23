@@ -13,8 +13,6 @@ import { Contacts } from './contacts';
 import { FishV2 } from '../components/fish-v2';
 
 
-
-
 function App() {
     return (
         <>
