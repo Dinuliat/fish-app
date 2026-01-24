@@ -778,7 +778,7 @@ if ('hammerfish' === fishName) {
                     src="../image/dangerous-fishes/sharks-black-feather/рифовая акула1.jpg"
                 />
                 <FishImage
-                    src="../image/dangerous-fishes/sharks-black-feather/черноперая_рифовая_акула_7.jpg"
+                    src="../image/dangerous-fishes/sharks-black-feather/рифовые акулы.jpg"
                 />
                 <FishImage
                     src="../image/dangerous-fishes/sharks-black-feather/черноперая_рифовая_акула_4.jpg"
