@@ -11,30 +11,29 @@
   }
 
   .Banner_text {
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-size: clamp(2rem, 6vw, 3.5rem);
     padding: 15px;
   }
 
   .Fish_text {
-    font-size: clamp(0.875rem, 3.5vw, 1.25rem);
+    font-size: clamp(1.2rem, 4.5vw, 1.8rem);
     padding: 5%;
     width: 80%;
     z-index: 1;
   }
 
   .FishesName {
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
-    padding: 40px 20px;
+    font-size: clamp(2rem, 6vw, 3.5rem);
   }
 
   .Search {
-    padding: 15px;
+    padding: 9px;
   }
 
   .Search input {
-    font-size: clamp(0.875rem, 4vw, 1.25rem);
-    width: 100%;
-    padding: 10px;
+    font-size: clamp(0.75rem, 3.5vw, 1rem);
+    width: 50%;
+    padding: 4px;
   }
 
   .MagicContainer {
@@ -42,15 +41,15 @@
   }
 
   .Box {
-    padding: 10px 10px 30px;
+    padding: 10px 10px 0;
     gap: 15px;
   }
 
   .Chapter {
     width: calc(100vw - 40px);
-    height: calc(100vw - 40px);
-    max-width: 300px;
-    max-height: 300px;
+    height: calc((100vw - 40px) * 0.75);
+    max-width: 320px;
+    max-height: 240px;
   }
 
   .Text-description {
@@ -99,30 +98,29 @@
   }
 
   .Banner_text {
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-size: clamp(2.5rem, 6vw, 4rem);
     padding: 20px;
   }
 
   .Fish_text {
-    font-size: clamp(1rem, 4vw, 1.5rem);
+    font-size: clamp(1.4rem, 5vw, 2rem);
     padding: 6%;
     width: 75%;
     z-index: 1;
   }
 
   .FishesName {
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    padding: 60px 30px;
+    font-size: clamp(2.5rem, 6vw, 4rem);
   }
 
   .Search {
-    padding: 20px;
+    padding: 12px;
   }
 
   .Search input {
-    font-size: clamp(1rem, 4vw, 1.5rem);
-    width: 90%;
-    padding: 12px;
+    font-size: clamp(0.85rem, 3.5vw, 1.25rem);
+    width: 45%;
+    padding: 4px;
   }
 
   .MagicContainer {
@@ -130,15 +128,15 @@
   }
 
   .Box {
-    padding: 15px 15px 30px;
+    padding: 15px 15px 0;
     gap: 18px;
   }
 
   .Chapter {
     width: calc(50vw - 30px);
-    height: calc(50vw - 30px);
-    max-width: 280px;
-    max-height: 280px;
+    height: calc((50vw - 30px) * 0.75);
+    max-width: 320px;
+    max-height: 240px;
   }
 
   .Text-description {
@@ -176,30 +174,29 @@
   }
 
   .Banner_text {
-    font-size: clamp(3rem, 5vw, 4.5rem);
+    font-size: clamp(3.5rem, 6vw, 5.5rem);
     padding: 25px;
   }
 
   .Fish_text {
-    font-size: clamp(1.125rem, 3vw, 1.75rem);
+    font-size: clamp(1.5rem, 4vw, 2.3rem);
     padding: 7%;
     width: 70%;
     z-index: 1;
   }
 
   .FishesName {
-    font-size: clamp(3rem, 5vw, 4.5rem);
-    padding: 80px 40px;
+    font-size: clamp(3.5rem, 6vw, 5.5rem);
   }
 
   .Search {
-    padding: 25px;
+    padding: 15px;
   }
 
   .Search input {
-    font-size: clamp(1.25rem, 3vw, 1.75rem);
-    width: 80%;
-    padding: 15px;
+    font-size: clamp(1rem, 2.5vw, 1.4rem);
+    width: 40%;
+    padding: 5px;
   }
 
   img {
@@ -213,13 +210,13 @@
   }
 
   .Box {
-    padding: 18px 18px 40px;
+    padding: 18px 18px 0;
     gap: 20px;
   }
 
   .Chapter {
-    width: 320px;
-    height: 320px;
+    width: 380px;
+    height: 285px;
   }
 
   .Text-description {
@@ -257,18 +254,17 @@
   }
 
   .Fish_text {
-    font-size: clamp(1.25rem, 2.5vw, 2rem);
+    font-size: clamp(1.7rem, 3vw, 2.6rem);
     padding: 8%;
   }
 
   .Banner_text {
-    font-size: clamp(4rem, 4vw, 5.5rem);
+    font-size: clamp(4.5rem, 5vw, 6.5rem);
     padding: 30px;
   }
 
   .FishesName {
-    font-size: clamp(4rem, 4vw, 5.5rem);
-    padding: 100px;
+    font-size: clamp(4.5rem, 5vw, 6.5rem);
   }
 
   img:not(.Chapter img) {
@@ -278,12 +274,13 @@
   }
 
   .Search {
-    padding: 30px;
+    padding: 18px;
   }
 
   .Search input {
-    font-size: clamp(1.5rem, 2vw, 2rem);
-    width: 70%;
+    font-size: clamp(1.2rem, 1.8vw, 1.6rem);
+    width: 35%;
+    padding: 5px 12px;
   }
 
   .MagicContainer {
@@ -302,15 +299,15 @@
   }
 
   .Fish_text {
-    font-size: clamp(1.5rem, 2vw, 2.5rem);
+    font-size: clamp(2rem, 2.5vw, 3rem);
   }
 
   .Banner_text {
-    font-size: clamp(5rem, 3vw, 6.5rem);
+    font-size: clamp(5.5rem, 4vw, 7.5rem);
   }
 
   .FishesName {
-    font-size: clamp(5rem, 3vw, 6.5rem);
+    font-size: clamp(5.5rem, 4vw, 7.5rem);
   }
 
   img:not(.Chapter img) {
@@ -320,8 +317,9 @@
   }
 
   .Search input {
-    font-size: clamp(1.75rem, 2vw, 2.25rem);
-    width: 60%;
+    font-size: clamp(1.4rem, 1.8vw, 1.8rem);
+    width: 30%;
+    padding: 6px 12px;
   }
 
   .MagicContainer {
@@ -342,9 +340,8 @@
 .App {
   text-align: center;
   background-color: rgb(3, 19, 75);
-  overflow-x: hidden;
-  overflow-y: auto;
-  min-height: 100vh;
+  overflow: hidden;
+  height: 100vh;
   width: 100%;
   position: relative;
 }
@@ -365,6 +362,7 @@
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  overflow-y: auto;
   min-height: 100vh;
   box-sizing: border-box;
 }
@@ -376,7 +374,8 @@
 }
 
 .Search {
-  padding: 20px;
+  padding: 12px;
+  margin-top: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -392,11 +391,12 @@
   align-items: center;
   background-color: rgba(9, 39, 170, 0.6);
   color: aqua;
-  font-weight: 500;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.8em;
   border: 2px solid rgba(0, 255, 255, 0.3);
   border-radius: 8px;
-  padding: 12px 20px;
+  padding: 4px 12px;
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -411,8 +411,9 @@
   justify-content: center;
   color: aliceblue;
   font-weight: 400;
-  font-family: 'Candara', 'Times New Roman', Times, serif;
+  font-family: 'Great Vibes', cursive;
   padding: 20px;
+  padding-top: 100px;
   margin: 0;
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
   flex-shrink: 0;
@@ -430,9 +431,9 @@
   justify-content: flex-start;
   align-items: flex-end;
   flex: 0 1 auto;
-  width: 350px;
-  height: 350px;
-  aspect-ratio: 1/1;
+  width: 400px;
+  height: 300px;
+  aspect-ratio: 4/3;
   box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     1px 2px 4px 0px rgba(0, 0, 0, 0.7),
     2px 4px 8px 0px rgba(0, 0, 0, 0.7),
@@ -469,9 +470,11 @@
   display: flex;
   color: rgb(186, 236, 243);
   font-size: 25px;
-  font-weight: lighter;
+  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;
   padding: 50px;
   text-align: justify;
+  line-height: 1.6;
   
 }
 
@@ -479,8 +482,8 @@
   display: flex;
   color: aliceblue;
   font-weight: 400;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
-  padding: 100px;
+  font-family: 'Great Vibes', cursive;
+  padding-top: 180px;
   align-items: center;
   justify-content: center;
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
@@ -495,7 +498,7 @@
   gap: 20px;
   font-stretch: normal;
   align-items: center;
-  padding: 20px;
+  padding: 15px 20px 0;
   justify-content: center;
   width: 100%;
   box-sizing: border-box;
@@ -519,7 +522,7 @@
   justify-content: center;
   color: aliceblue;
   font-weight: 400;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  font-family: 'Great Vibes', cursive;
   font-size: clamp(3.75rem, 0.25rem + 2vw, 2rem);
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
@@ -561,7 +564,7 @@
   justify-content: right;
   color: aliceblue;
   font-weight: 400;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  font-family: 'Great Vibes', cursive;
   width: 70%;
   padding: 8%;
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
@@ -572,7 +575,7 @@
   display: flex;
   flex: auto;
   color: aliceblue;
-  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
+  font-family: 'Great Vibes', cursive;
   flex-direction: column;
   font-stretch: normal;
   justify-content: flex-start;
@@ -756,9 +759,9 @@ ul {
 
 .search-results-header {
   color: aliceblue;
-  font-family: 'Candara', 'Times New Roman', Times, serif;
-  font-size: clamp(1.25rem, 3vw, 1.75rem);
-  font-weight: 500;
+  font-family: 'Great Vibes', cursive;
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+  font-weight: 400;
   text-align: center;
   padding: 15px 20px;
   background-color: rgba(9, 39, 170, 0.3);
@@ -773,7 +776,7 @@ ul {
   align-items: center;
   justify-content: center;
   color: aliceblue;
-  font-family: 'Candara', 'Times New Roman', Times, serif;
+  font-family: 'Great Vibes', cursive;
   padding: 60px 20px;
   text-align: center;
   flex: 1;

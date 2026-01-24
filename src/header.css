@@ -1,0 +1,87 @@
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    backdrop-filter: none;
+    box-shadow: none;
+    z-index: 1100;
+    padding: 0;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 
+                 2px 2px 8px rgba(0, 0, 0, 0.9),
+                 -2px -2px 8px rgba(0, 0, 0, 0.9);
+    border-bottom: 3px solid transparent;
+    position: relative;
+    background: transparent;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: white;
+    background: transparent;
+    border-bottom-color: white;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.9),
+                 2px 2px 10px rgba(0, 0, 0, 1),
+                 -2px -2px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.nav-item:active {
+    background: transparent;
+}
+
+/* Адаптивные стили */
+@media all and (max-width: 767px) {
+    .nav-menu {
+        gap: 0;
+    }
+
+    .nav-item {
+        padding: 15px 20px;
+        font-size: 1.3em;
+        flex: 1 1 auto;
+        min-width: 120px;
+    }
+}
+
+@media all and (max-width: 479px) {
+    .nav-menu {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .nav-item {
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 1.2em;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .nav-item:last-child {
+        border-bottom: none;
+    }
+}
