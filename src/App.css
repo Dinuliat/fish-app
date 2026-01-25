@@ -431,7 +431,7 @@
   justify-content: flex-start;
   align-items: flex-end;
   flex: 0 1 auto;
-  width: 400px;
+  width: 450px;
   height: 300px;
   aspect-ratio: 4/3;
   box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
@@ -588,7 +588,7 @@
   align-items: start;
   position: absolute;
   top: 0;
-  right: 0;
+  right: -5px;
   justify-content: right;
   color: aliceblue;
   font-weight: 400;
