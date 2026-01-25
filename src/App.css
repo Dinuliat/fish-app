@@ -140,13 +140,19 @@
   color: aqua;
 }
 
+.menu-item {
+/*font-family: 'Candara', 'Times New Roman', Times, serif;*/
+font-family:'Monotype Corsiva', 'Times New Roman', Times, serif;
+font-size: 30px;
+}
+
 .Banner_text {
   display: flex;
   align-items: center;
   justify-content: center;
   color: aliceblue;
   font-weight: 400;
-  font-family: 'Candara', 'Times New Roman', Times, serif;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   padding: 60px;
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
@@ -183,7 +189,7 @@
   color: aliceblue;
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
-  padding: 100px;
+  padding: 75px;
   align-items: center;
   justify-content: center;
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
@@ -209,7 +215,7 @@
   flex-direction: column;
   font-stretch: normal;
   flex-basis: max-content;
-  padding: 10px;
+  padding: 15px;
   justify-content: space-evenly;
 }
 
@@ -239,13 +245,14 @@
   background-size: 100% 100%;
   flex-direction: row;
   justify-content: center;
-  margin: 20px;
-  height: 24px;
-  width: 24px;
+  margin: 15px;
+  height: 34px;
+  width: 34px;
 }
 
 .Telegramm {
   background-image: url("../public/image/free-icon-telegram-408737.png");
+  
 }
 
 .VK {
