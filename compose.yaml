@@ -1,5 +1,5 @@
 services:
-  fish-app:
+  fish-app-new:
     image: node:16-alpine
     container_name: fish-app-new
     working_dir: /app
