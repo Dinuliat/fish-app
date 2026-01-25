@@ -31,7 +31,7 @@ export const Contacts = () => {
                         </div>
                     </div> */}
                     <div className="Mail">
-                        <div className="Email">dinuliat@mail.ru</div>
+                        <a href="mailto:dinuliat@ail.ru" className="Email">dinuliat@mail.ru</a>
                         <div className="Network">
                             <div className="Telegramm media-icon">
                             <a href="tg://resolve?domain=dinuliat" rel="nofollow noopener noreferrer">&nbsp;</a>
@@ -39,7 +39,6 @@ export const Contacts = () => {
                             <div className="VK media-icon">
                                 <a href="https://vk.com/id11631407" rel="nofollow noopener noreferrer">&nbsp;</a>
                             </div>
-
                         </div>
                     </div>
                    
