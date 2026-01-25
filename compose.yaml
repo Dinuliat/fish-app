@@ -1,0 +1,21 @@
+services:
+  fish-app:
+    image: node:16-alpine
+    container_name: fish-app
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: sh -c "npm install && npm start"
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+    networks:
+      - public
+    restart: always
+
+networks:
+  public:
