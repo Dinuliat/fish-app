@@ -7,31 +7,35 @@ export const NoFishes = () => {
     const navigation = useNavigate();
 
     const onCorals = useCallback(() => {
-        navigation("/corals")
+        navigation("/fish/corals")
     }, [navigation])
 
     const onMollusks = useCallback(() => {
-        navigation("/mollusks")
+        navigation("/fish/mollusks")
     }, [navigation])
 
     const onOctopus = useCallback(() => {
-        navigation("/octopus")
+        navigation("/fish/octopus")
     }, [navigation])
 
     const onSquids = useCallback(() => {
-        navigation("/squids")
+        navigation("/fish/squids")
     }, [navigation])
 
     const onStars = useCallback(() => {
-        navigation("/stars")
+        navigation("/fish/stars")
     }, [navigation])
 
     const onTurtles = useCallback(() => {
-        navigation("/turtles")
+        navigation("/fish/turtles")
     }, [navigation])
 
     const onJellyfish = useCallback(() => {
-        navigation("/jellyfish")
+        navigation("/fish/jellyfish")
+    }, [navigation])
+
+    const onHedgehog = useCallback(() => {
+        navigation("/fish/hedgehog")
     }, [navigation])
 
     return (
@@ -73,9 +77,14 @@ export const NoFishes = () => {
                             text="Моллюски"
                         />
                         <FishImage
-                            src="image/no-fishes/stars/звезда3.jpg"
+                            src="image/no-fishes/stars/еж3.jpg"
+                            onClick={onHedgehog}
+                            text="Морские ежи"
+                        />
+                        <FishImage
+                            src="image/no-fishes/stars/морская звезда.jpg"
                             onClick={onStars}
-                            text="Звезды"
+                            text="Морская звезда"
                         />
 
                     </div>

@@ -5,100 +5,100 @@ import { FishImage } from "../components/fish-image"
 export const DangerousFishes = () => {
     const navigation = useNavigate();
 
-    const onArototron = useCallback(() => {
-        navigation("/arototron")
+    const onArotron = useCallback(() => {
+        navigation("/fish/arototron")
     }, [navigation])
 
     const onBaracuda = useCallback(() => {
-        navigation("/baracuda")
+        navigation("/fish/baracuda")
     }, [navigation])
 
     const onCrocodile = useCallback(() => {
-        navigation("/crocodile")
+        navigation("/fish/crocodile")
     }, [navigation])
 
     const onHammerfish = useCallback(() => {
-        navigation("/hammerfish")
+        navigation("/fish/hammerfish")
     }, [navigation])
 
     const onLionfish = useCallback(() => {
-        navigation("/lionfish")
+        navigation("/fish/lionfish")
     }, [navigation])
 
     const onLongwingedfish = useCallback(() => {
-        navigation("/longwingedfish")
+        navigation("/fish/longwingedfish")
     }, [navigation])
 
     const onMurena = useCallback(() => {
-        navigation("/murena")
+        navigation("/fish/murena")
     }, [navigation])
 
     const onSeasnake = useCallback(() => {
-        navigation("/seasnake")
+        navigation("/fish/seasnake")
     }, [navigation])
 
     const onSharksblackfeather = useCallback(() => {
-        navigation("/sharksblackfeather")
+        navigation("/fish/sharksblackfeather")
     }, [navigation])
 
     const onSharkscow = useCallback(() => {
-        navigation("sharkscow")
+        navigation("/fish/sharkscow")
     }, [navigation])
 
     const onSharksmaco = useCallback(() => {
-        navigation("/sharksmaco")
+        navigation("/fish/sharksmaco")
     }, [navigation])
 
     const onSharksnuss = useCallback(() => {
-        navigation("/sharksnuss")
+        navigation("/fish/sharksnuss")
     }, [navigation])
 
     const onSharkswhite = useCallback(() => {
-        navigation("/sharkswhite")
+        navigation("/fish/sharkswhite")
     }, [navigation])
 
     const onSharkszebra = useCallback(() => {
-        navigation("/sharkszebra")
+        navigation("/fish/sharkszebra")
     }, [navigation])
 
     const onSkat = useCallback(() => {
-        navigation("/skat")
+        navigation("/fish/skat")
     }, [navigation])
 
     const onSkatorlyak = useCallback(() => {
-        navigation("/skatorlyak")
+        navigation("/fish/skatorlyak")
     }, [navigation])
 
     const onSkatmantu = useCallback(() => {
-        navigation("/skatmantu")
+        navigation("/fish/skatmantu")
     }, [navigation])
 
     const onSpinorog = useCallback(() => {
-        navigation("/spinorog")
+        navigation("/fish/spinorog")
     }, [navigation])
 
     const onStonefish = useCallback(() => {
-        navigation("/stonefish")
+        navigation("/fish/stonefish")
     }, [navigation])
 
     const onSurgeon = useCallback(() => {
-        navigation("/surgeon")
+        navigation("/fish/surgeon")
     }, [navigation])
 
     const onTiggerfish = useCallback(() => {
-        navigation("/tiggerfish")
+        navigation("/fish/tiggerfish")
     }, [navigation])
 
     const onTulozure = useCallback(() => {
-        navigation("/tulozure")
+        navigation("/fish/tulozure")
     }, [navigation])
 
     const onWhalesharks = useCallback(() => {
-        navigation("/whalesharks")
+        navigation("/fish/whalesharks")
     }, [navigation])
 
     const onBalistod = useCallback(() => {
-        navigation("/balistod")
+        navigation("/fish/balistod")
     }, [navigation])
 
     return (
@@ -108,14 +108,14 @@ export const DangerousFishes = () => {
                 <div className='Fishes-box'>
                     <div className='Box'>
                         <FishImage
-                            src="image/dangerous-fishes/arototron/аротрон4.jpg"
-                            onClick={onArototron}
-                            text="Арототрон"
+                            src="image/dangerous-fishes/arotron/аротрон4.jpg"
+                            onClick={onArotron}
+                            text="Аротрон"
                         />
                         <FishImage
                             src="image/dangerous-fishes/baracuda/баракуда4.jpg"
                             onClick={onBaracuda}
-                            text="Баракуда"
+                            text="Барракуда"
                         />
                         <FishImage
                             src="image/dangerous-fishes/crocodile/крокодил2.jpg"
@@ -159,7 +159,7 @@ export const DangerousFishes = () => {
                         <FishImage
                             src="image/dangerous-fishes/sharks-cow/бычья акула1.jpg"
                             onClick={onSharkscow}
-                            text="Бычья акула"
+                            text="Тупорылая акула"
                         />
                         <FishImage
                             src="image/dangerous-fishes/sharks-maco/акула мако 4.jpg"
@@ -213,7 +213,7 @@ export const DangerousFishes = () => {
                         <FishImage
                             src="image/dangerous-fishes/skat/скат9.jpg"
                             onClick={onSkatmantu}
-                            text="Манту"
+                            text="Манта"
                         />
                     </div>
                     <div className='Box'>

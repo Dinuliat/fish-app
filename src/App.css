@@ -56,6 +56,7 @@
     height: 250px;
   }
 
+
   .MagicContainer {
     margin: 30px;
   }
@@ -72,17 +73,19 @@
   }
 
   .Banner_text {
-    font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);
+    font-size: clamp(5.5rem, 0.25rem + 4vw, 4rem);
   }
 
   .FishesName {
-    font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);
+    font-size: clamp(5.5rem, 0.25rem + 4vw, 4rem);
   }
 
+  
   img {
     width: 420px;
     height: 320px;
   }
+  
 
   .Search input {
     font-size: clamp(1.5rem, 0.25rem + 2vw, 2rem);
@@ -103,7 +106,8 @@
   flex-direction: column;
   flex: auto;
   font-stretch: normal;
-  background-image: url("../public/image/Meduza_2-fentazi.jpg");
+  /*background-image: url("../public/image/video.mp4");*/
+  background-image: url("../public/image/Meduza.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.7),
@@ -136,15 +140,20 @@
   color: aqua;
 }
 
+.menu-item {
+/*font-family: 'Candara', 'Times New Roman', Times, serif;*/
+font-family:'Monotype Corsiva', 'Times New Roman', Times, serif;
+font-size: 30px;
+}
+
 .Banner_text {
   display: flex;
   align-items: center;
   justify-content: center;
   color: aliceblue;
   font-weight: 400;
-  font-family: 'Candara', 'Times New Roman', Times, serif;
+  font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   padding: 60px;
-  /*font-size: clamp(4.5rem, 0.25rem + 2vw, 2rem);*/
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
@@ -165,15 +174,24 @@
     2px 4px 16px 0px rgba(0, 0, 0, 0.7);
 }
 
+.Text-description {
+  display: flex;
+  color: rgb(186, 236, 243);
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 50px;
+  text-align: justify;
+  
+}
+
 .FishesName {
   display: flex;
   color: aliceblue;
   font-weight: 400;
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
-  padding: 100px;
+  padding: 75px;
   align-items: center;
   justify-content: center;
-  /*font-size: clamp(4.75rem, 0.25rem + 2vw, 2rem);*/
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 
 }
@@ -197,7 +215,7 @@
   flex-direction: column;
   font-stretch: normal;
   flex-basis: max-content;
-  padding: 10px;
+  padding: 15px;
   justify-content: space-evenly;
 }
 
@@ -227,13 +245,14 @@
   background-size: 100% 100%;
   flex-direction: row;
   justify-content: center;
-  margin: 20px;
-  height: 24px;
-  width: 24px;
+  margin: 15px;
+  height: 34px;
+  width: 34px;
 }
 
 .Telegramm {
   background-image: url("../public/image/free-icon-telegram-408737.png");
+  
 }
 
 .VK {
@@ -252,7 +271,6 @@
   font-family: 'Monotype Corsiva', 'Times New Roman', Times, serif;
   width: 70%;
   padding: 8%;
-  /*font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);*/
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
@@ -302,4 +320,132 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.circle1 {
+  background-color: rgb(143, 146, 143);
+  height: 700px;
+  width: 700px;
+  border-radius: 50%;
+  font-size: 500%;
+  position: relative;
+  box-shadow: inset -10px -10px 100px #040013, 10px 10px 20px rgb(11, 2, 35), inset 0px 0px 10px rgb(0, 2, 9);
+  display: inline-block;
+  margin: 20%;
+}
+
+.circle2 {
+  background-color: rgb(8, 163, 6);
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  font-size: 500%;
+  position: relative;
+  top: 100px;
+  box-shadow: inset -10px -10px 100px #01240b, 10px 10px 20px rgb(1, 18, 5), inset 0px 0px 10px rgb(0, 16, 5);
+  display: inline-block;
+}
+
+.circle3 {
+  background-color: rgb(241, 31, 87);
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  font-size: 500%;
+  position: absolute;
+  bottom: 350px;
+  left: 60%;
+  box-shadow: inset -10px -10px 100px #2e030e, 10px 10px 20px rgb(19, 1, 1), inset 0px 0px 10px rgb(16, 0, 7);
+  display: inline-block;
+}
+
+.number {
+  font-size: 150px;
+  color: #000;
+}
+
+.Pages {
+  display: flex;
+  min-height: 100vh;
+  flex-basis: max-content;
+}
+
+.Menu1 {
+  display: flex;
+  width: 100%;
+  background-color: rgb(39, 4, 71);
+  flex-direction: column;
+  flex-basis: max-content;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.Page {
+  display: flex;
+  flex-direction: column;
+  flex-basis: max-content;
+  flex-grow: 3;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.Header {
+  display: flex;
+  background-color: rgb(57, 15, 124);
+  height: 100px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Body {
+  display: flex;
+  height: stretch;
+  background-color: rgb(74, 40, 212);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow-y:scroll;
+  flex-grow: 1;
+}
+
+.Futer {
+  display: flex;
+  background-color: rgb(57, 15, 124);
+  height: 100px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 40px;
+  color: #20e6dc;
+
+}
+
+.cat {
+  background-image: url(../public/image/free-icon-cat-7179688.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+  height: 48px;
+  width: 48px;
+}
+
+ul {
+  font-size: 25px;
+  color: #20e6dc;
+  list-style-type: none;
+}
+
+.Line {
+  height: 30px;
+  color: #20e6dc;
+  font-size: 20px;
+  justify-content: center;
 }
