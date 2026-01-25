@@ -514,6 +514,7 @@
   flex-basis: max-content;
   padding: 10px;
   justify-content: space-evenly;
+  color: aliceblue;
 }
 
 .Email {
@@ -536,24 +537,51 @@
   justify-content: center;
 }
 
-.media-icon {
+/* .media-icon {
   display: flex;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   flex-direction: row;
   justify-content: center;
   margin: 20px;
-  height: 24px;
-  width: 24px;
-}
+  height: 34px;
+  width: 34px;
+} */
 
-.Telegramm {
+.telegram-icon {
   background-image: url("../public/image/free-icon-telegram-408737.png");
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+   margin: 20px;
+  height: 34px;
+  width: 34px;
+  text-indent: -9999px;
 }
 
-.VK {
+/* .Telegramm {
+  background-image: url("../public/image/free-icon-telegram-408737.png");
+} */
+
+.vk-icon {
   background-image: url("../public/image/free-icon-vk-725288.png");
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+   margin: 20px;
+  height: 34px;
+  width: 34px;
+  text-indent: -9999px;
 }
+/* .VK {
+  background-image: url("../public/image/free-icon-vk-725288.png");
+} */
 
 .Fish_text {
   display: flex;

@@ -20,7 +20,7 @@ export const FishV2 = () => {
 
     return (
         <>
-            <div className='Box'>
+            <div className='Box pt-5 mt-4'>
                 {fishData.images.map((image, index) => (
                     <FishImage
                         key={index}
