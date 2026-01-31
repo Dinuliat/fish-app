@@ -286,6 +286,11 @@ font-size: 30px;
   text-shadow: rgb(2, 1, 21) 2px 3px 4px;
 }
 
+.map-box {
+  flex-basis: max-content;
+  overflow: hidden;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -307,6 +312,14 @@ font-size: 30px;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.leaflet-control .leaflet-attribution-flag {
+  display: none !important;
+}
+
+
+
+
 
 .App-link {
   color: #61dafb;

@@ -4,12 +4,12 @@ import 'leaflet/dist/leaflet.css';
 import { useState } from 'react';
 
 // Fix for default marker icons in React-Leaflet
-delete (L.Icon.Default.prototype as any)._getIconUrl;
-L.Icon.Default.mergeOptions({
-    iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-    iconUrl: require('leaflet/dist/images/marker-icon.png'),
-    shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
-});
+// delete (L.Icon.Default.prototype as any)._getIconUrl;
+// L.Icon.Default.mergeOptions({
+//     iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+//     iconUrl: require('leaflet/dist/images/marker-icon.png'),
+//     shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+// });
 
 // Custom marker icons for different reef types
 const createCustomIcon = (color: string) => {
@@ -402,80 +402,15 @@ export const Map = () => {
             <div className="MagicContainer" style={{ minHeight: "100vh" }}>
                 <div className="FishesName">Интерактивная карта коралловых рифов мира</div>
 
-                {/* Фильтры и поиск */}
-                <div style={{ 
-                    marginBottom: '20px', 
-                    padding: '15px', 
-                    backgroundColor: 'rgba(255, 255, 255, 0.95)',
-                    borderRadius: '8px',
-                    boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
-                }}>
-                    <div style={{ marginBottom: '15px' }}>
-                        <input 
-                            type="text"
-                            placeholder="🔍 Поиск по названию или стране..."
-                            value={searchTerm}
-                            onChange={(e) => setSearchTerm(e.target.value)}
-                            style={{
-                                width: '100%',
-                                padding: '10px 15px',
-                                borderRadius: '6px',
-                                border: '2px solid #e0e0e0',
-                                fontSize: '16px',
-                                outline: 'none',
-                                transition: 'border-color 0.3s'
-                            }}
-                            onFocus={(e) => e.target.style.borderColor = '#4ECDC4'}
-                            onBlur={(e) => e.target.style.borderColor = '#e0e0e0'}
-                        />
-                    </div>
-
-                    <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', alignItems: 'center' }}>
-                        <strong style={{ marginRight: '10px' }}>Фильтр:</strong>
-                        <button 
-                            onClick={() => setSelectedType('all')}
-                            style={{
-                                padding: '8px 16px',
-                                borderRadius: '20px',
-                                border: 'none',
-                                backgroundColor: selectedType === 'all' ? '#333' : '#e0e0e0',
-                                color: selectedType === 'all' ? 'white' : '#333',
-                                cursor: 'pointer',
-                                fontWeight: selectedType === 'all' ? 'bold' : 'normal',
-                                transition: 'all 0.3s'
-                            }}
-                        >
-                            Все рифы ({coralReefs.length})
-                        </button>
-                        {Object.entries(reefTypes).map(([type, info]) => (
-                            <button 
-                                key={type}
-                                onClick={() => setSelectedType(type)}
-                                style={{
-                                    padding: '8px 16px',
-                                    borderRadius: '20px',
-                                    border: 'none',
-                                    backgroundColor: selectedType === type ? info.color : '#e0e0e0',
-                                    color: selectedType === type ? 'white' : '#333',
-                                    cursor: 'pointer',
-                                    fontWeight: selectedType === type ? 'bold' : 'normal',
-                                    transition: 'all 0.3s'
-                                }}
-                            >
-                                {info.name} ({coralReefs.filter(r => r.type === type).length})
-                            </button>
-                        ))}
-                    </div>
-                </div>
-
+                                                
+              
                 {/* Карта */}
-                <div className='Fishes-box'>
+                 <div className='map-box'>
                     <div style={{ 
                         width: '100%', 
                         height: '75vh', 
                         borderRadius: '12px',
                         overflow: 'hidden',
-                        boxShadow: '0 6px 12px rgba(0, 0, 0, 0.15)',
                         border: '3px solid #4ECDC4'
                     }}>
                         <MapContainer 
@@ -552,87 +487,9 @@ export const Map = () => {
                         </MapContainer>
                     </div>
 
-                    {/* Легенда */}
-                    <div style={{ 
-                        marginTop: '20px', 
-                        padding: '20px', 
-                        backgroundColor: 'rgba(255, 255, 255, 0.95)',
-                        borderRadius: '12px',
-                        boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
-                    }}>
-                        <h3 style={{ marginTop: 0, marginBottom: '15px', color: '#333' }}>
-                            🗺️ Легенда карты
-                        </h3>
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '15px' }}>
-                            {Object.entries(reefTypes).map(([type, info]) => {
-                                const count = coralReefs.filter(r => r.type === type).length;
-                                return (
-                                    <div key={type} style={{ 
-                                        display: 'flex', 
-                                        alignItems: 'center',
-                                        padding: '10px',
-                                        backgroundColor: '#f9f9f9',
-                                        borderRadius: '8px',
-                                        border: `2px solid ${info.color}`
-                                    }}>
-                                        <div style={{
-                                            width: '20px',
-                                            height: '20px',
-                                            borderRadius: '50%',
-                                            backgroundColor: info.color,
-                                            marginRight: '10px',
-                                            border: '2px solid white',
-                                            boxShadow: '0 2px 4px rgba(0,0,0,0.2)'
-                                        }}></div>
-                                        <div>
-                                            <strong>{info.name}</strong>
-                                            <div style={{ fontSize: '12px', color: '#666' }}>
-                                                {count} {count === 1 ? 'локация' : 'локации'}
-                                            </div>
-                                        </div>
-                                    </div>
-                                );
-                            })}
-                        </div>
-
-                        <div style={{ marginTop: '20px', padding: '15px', backgroundColor: '#e8f4f8', borderRadius: '8px' }}>
-                            <p style={{ margin: 0, fontSize: '14px', lineHeight: '1.6' }}>
-                                <strong>ℹ️ Информация:</strong> На карте представлено <strong>{coralReefs.length}</strong> локаций 
-                                коралловых рифов по всему миру. Нажмите на маркер для получения детальной информации о каждом рифе.
-                                Используйте фильтры и поиск для быстрого поиска нужной локации.
-                            </p>
-                        </div>
-
-                        {filteredReefs.length === 0 && (
-                            <div style={{ 
-                                marginTop: '20px', 
-                                padding: '20px', 
-                                backgroundColor: '#fff3cd',
-                                borderRadius: '8px',
-                                textAlign: 'center'
-                            }}>
-                                <p style={{ margin: 0, fontSize: '16px' }}>
-                                    😕 Не найдено рифов по заданным критериям. Попробуйте изменить фильтры или поисковый запрос.
-                                </p>
-                            </div>
-                        )}
-
-                        {filteredReefs.length > 0 && filteredReefs.length < coralReefs.length && (
-                            <div style={{ 
-                                marginTop: '20px', 
-                                padding: '15px', 
-                                backgroundColor: '#d1ecf1',
-                                borderRadius: '8px',
-                                textAlign: 'center'
-                            }}>
-                                <p style={{ margin: 0, fontSize: '14px' }}>
-                                    📌 Показано <strong>{filteredReefs.length}</strong> из <strong>{coralReefs.length}</strong> локаций
-                                </p>
-                            </div>
-                        )}
-                    </div>
+                   </div>
                 </div>
             </div>
-        </div>
+    
     )
 }
