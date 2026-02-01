@@ -179,7 +179,7 @@ export const SafeFishes = () => {
                             text="Сколопсис"
                         />
                     </div>
-                    <div className='Box'>
+                    <div className='Box pb-5'>
                         <FishImage
                             src="image/safe-fishes/napoleons/наполеон7.jpg"
                             onClick={onNapoleon}
@@ -196,7 +196,7 @@ export const SafeFishes = () => {
                             text="Кабубы"
                         />
                         <FishImage
-                            src="image/safe-fishes/aluter/хвост (3).jpg"
+                            src="image/safe-fishes/aluter/алутер 7.jpg"
                             onClick={onAluter}
                             text="Расписные алутеры"
                         />

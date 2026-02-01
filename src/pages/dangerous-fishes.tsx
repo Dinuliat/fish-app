@@ -216,7 +216,7 @@ export const DangerousFishes = () => {
                             text="Манта"
                         />
                     </div>
-                    <div className='Box'>
+                    <div className='Box pb-5'>
                         <FishImage
                             src="image/dangerous-fishes/tulozure/тилозур6.jpg"
                             onClick={onTulozure}

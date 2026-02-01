@@ -65,7 +65,7 @@ export const NoFishes = () => {
                             text="Медузы"
                         />
                     </div>
-                    <div className='Box'>
+                    <div className='Box pb-5'>
                         <FishImage
                             src="image/no-fishes/corals/кораллы4.jpg"
                             onClick={onCorals}
