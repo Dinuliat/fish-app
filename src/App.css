@@ -258,6 +258,12 @@ font-size: 30px;
 .VK {
   background-image: url("../public/image/free-icon-vk-725288.png");
 }
+.ymaps-2-1-79-map ymaps {
+  border-radius: 5px;
+}
+/* .ymaps-2-1-79-zoom__icon {
+  display: none !important;
+} */
 
 .Fish_text {
   display: flex;
@@ -316,9 +322,6 @@ font-size: 30px;
 .leaflet-control .leaflet-attribution-flag {
   display: none !important;
 }
-
-
-
 
 
 .App-link {

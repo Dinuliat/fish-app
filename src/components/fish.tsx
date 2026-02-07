@@ -67,7 +67,7 @@ export const Fish = () => {
                     src="../image/safe-fishes/cezii/цезии2.jpg"
                 />
                 <FishImage
-                    src="../image/safe-fishes/cezii/цезии5.jpg"
+                    src="../image/safe-fishes/cezii/цезии0.jpg"
                 />
                 <FishImage
                     src="../image/safe-fishes/cezii/цезии6.jpg"

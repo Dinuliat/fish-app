@@ -11,6 +11,7 @@ import { DangerousFishes } from './dangerous-fishes';
 import { NoFishes } from './no-fishes';
 import { Contacts } from './contacts';
 import { Map } from './map';
+import { YandexMap } from './yandex-map';
 import { Fish } from '../components/fish';
 
 
@@ -25,6 +26,7 @@ function App() {
                 <a id="dangerous-fishes" className="menu-item" href="/dangerous-fishes">Опасные рыбы</a>
                 <a id="no-fishes" className="menu-item" href="/no-fishes">Не рыбы</a>
                 <a id="map" className="menu-item" href="/map">Карта</a>
+                <a id="yandex-map" className="menu-item" href="/yandex-map">Яндекс Карта</a>
                 <a id="contacts" className="menu-item" href="/contacts">Контакты</a>
                 
 
@@ -36,6 +38,7 @@ function App() {
                     <Route path='/dangerous-fishes' element={<Layout><DangerousFishes /></Layout>} />
                     <Route path='/no-fishes' element={<Layout><NoFishes /></Layout>} />
                     <Route path='/map' element={<Layout><Map /></Layout>} />
+                    <Route path='/yandex-map' element={<Layout><YandexMap /></Layout>} />
                     <Route path='/contacts' element={<Layout><Contacts /></Layout>} />
 
                     <Route path='/fish/:fishName' element={<Layout><Fish /></Layout>} />
