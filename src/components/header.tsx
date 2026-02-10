@@ -10,6 +10,7 @@ export const Header = () => {
                 <Link to="/dangerous-fishes" className="nav-item">Опасные рыбы</Link>
                 <Link to="/no-fishes" className="nav-item">Не рыбы</Link>
                 <Link to="/contacts" className="nav-item">Контакты</Link>
+                <Link to="/yandex-map" className="nav-item">Карта коралловых рифов</Link>
             </nav>
         </header>
     );

@@ -8,6 +8,7 @@ import { SafeFishes } from './safe-fishes';
 import { DangerousFishes } from './dangerous-fishes';
 import { NoFishes } from './no-fishes';
 import { Contacts } from './contacts';
+import { YandexMap } from './yandex-map';
 import { FishV2 } from '../components/fish-v2';
 
 
@@ -19,7 +20,7 @@ function App() {
             <Route path='/dangerous-fishes' element={<Layout><DangerousFishes /></Layout>} />
             <Route path='/no-fishes' element={<Layout><NoFishes /></Layout>} />
             <Route path='/contacts' element={<Layout><Contacts /></Layout>} />
-
+            <Route path='/yandex-map' element={<Layout><YandexMap /></Layout>} />
             <Route path='/fish/:fishName' element={<Layout><FishV2 /></Layout>} />
 
             {/*<Route path='/contacts' element={<Layout><Corals /></Layout>} />
