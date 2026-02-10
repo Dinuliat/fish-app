@@ -1,0 +1,7 @@
+.map-host {
+    width: 100%;
+    height: 75vh;
+    border-radius: 12px;
+    overflow: auto;
+    border: 3px solid #4ECDC4;
+}

@@ -1,6 +1,7 @@
 import { YMaps, Map, Placemark, ZoomControl } from '@pbe/react-yandex-maps';
 import { useState } from 'react';
 import { coralReefs, reefTypes } from './map-info/map-markers';
+import './yandex-map.css';
 
 export const YandexMap = () => {
     const [selectedType, setSelectedType] = useState<string>('all');
@@ -21,14 +22,7 @@ export const YandexMap = () => {
 
                 <div className='map-box'>
 
-                    <div style={{
-                        width: '100%',
-                        height: '75vh',
-                        borderRadius: '12px',
-                        overflow: 'auto',
-                        border: '3px solid #4ECDC4',
-                    
-                    }}>
+                    <div className="map-host">
 
                         <YMaps query={{ lang: 'ru_RU' }}>
                             <Map
@@ -88,8 +82,8 @@ export const YandexMap = () => {
                                 ))}
                             </Map>
                         </YMaps>
-                        </div>
                     </div>
+                </div>
             </div>
         </div >
 
