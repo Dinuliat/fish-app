@@ -512,7 +512,7 @@ export const YandexMap = () => {
                 <div className="FishesName">Интерактивная Карта коралловых рифов мира</div>
 
                 {/* Карта */}
-                <div className='map-box pb-5'>
+                <div className='map-box'>
 
                 <div style={{
                     width: '100%',
