@@ -1,15 +1,15 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom"
-import '../App.css';
+import './styles/global.css';
 import "bootstrap/dist/css/bootstrap.min.css"
-import { Magicworld } from "./magicworld";
-import { Layout } from '../layout';
-import { SafeFishes } from './safe-fishes';
-import { DangerousFishes } from './dangerous-fishes';
-import { NoFishes } from './no-fishes';
-import { Contacts } from './contacts';
-import { YandexMap } from './yandex-map';
-import { FishV2 } from '../components/fish-v2';
+import { Magicworld } from "./pages/magicworld";
+import { Layout } from './layout';
+import { SafeFishes } from './pages/safe-fishes';
+import { DangerousFishes } from './pages/dangerous-fishes';
+import { NoFishes } from './pages/no-fishes';
+import { Contacts } from './pages/contacts';
+import { YandexMap } from './pages/yandex-map/yandex-map';
+import { FishV2 } from './components/fish-v2';
 
 
 function App() {
