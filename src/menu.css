@@ -20,12 +20,20 @@
 
 /* Адаптивные стили для бургер-меню */
 @media all and (max-width: 479px) {
+    .nav-menu {
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+    }
+    .nav-item {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
     .bm-burger-button {
         width: 30px;
         height: 25px;
         left: 20px;
         top: 20px;
-        padding: 6px;
+        padding: 3px;
         filter: drop-shadow(0 0 6px rgba(0, 255, 255, 0.5));
     }
 

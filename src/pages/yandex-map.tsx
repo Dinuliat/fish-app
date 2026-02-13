@@ -18,9 +18,9 @@ export const YandexMap = () => {
         <div className="p-0">
             <div className="MagicContainer" style={{minHeight: "100vh" }}>
 
-                <div className="FishesName">Интерактивная Карта коралловых рифов мира</div>
+                <div className="FishesName">Карта коралловых рифов мира</div>
 
-                <div className='map-box'>
+                <div className='map-box p-3'>
 
                     <div className="map-host">
 
