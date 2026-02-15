@@ -351,7 +351,7 @@
   flex-direction: column;
   flex: auto;
   font-stretch: normal;
-  background-image: url("../public/image/Meduza_2-fentazi.jpg");
+  background-image: url("../../public/image/Meduza_2-fentazi.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -549,7 +549,7 @@
 } */
 
 .telegram-icon {
-  background-image: url("../public/image/free-icon-telegram-408737.png");
+  background-image: url("../../public/image/free-icon-telegram-408737.png");
   display: inline-block;
   background-size: contain;
   background-repeat: no-repeat;
@@ -567,7 +567,7 @@
 } */
 
 .vk-icon {
-  background-image: url("../public/image/free-icon-vk-725288.png");
+  background-image: url("../../public/image/free-icon-vk-725288.png");
   display: inline-block;
   background-size: contain;
   background-repeat: no-repeat;
@@ -751,7 +751,7 @@
 }
 
 .cat {
-  background-image: url(../public/image/free-icon-cat-7179688.png);
+  background-image: url(../../public/image/free-icon-cat-7179688.png);
   display: flex;
   background-repeat: no-repeat;
   background-size: 100% 100%;

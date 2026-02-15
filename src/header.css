@@ -70,8 +70,7 @@
 
 @media all and (max-width: 479px) {
     .nav-menu {
-        flex-direction: column;
-        gap: 0;
+        display: none
     }
 
     .nav-item {
@@ -85,3 +84,4 @@
         border-bottom: none;
     }
 }
+
