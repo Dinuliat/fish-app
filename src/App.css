@@ -844,7 +844,6 @@ ul {
   height: 100%;
   overflow: hidden;
   pointer-events: none;
-  z-index: 1;
 }
 
 /* Стили пузырьков */
