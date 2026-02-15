@@ -3,14 +3,17 @@
     position: fixed;
     width: 36px;
     height: 30px;
-    left: 66px;
-    top: 66px;
+    left: 30px;
+    top: 30px;
     display: none;
 }
 
+.App {
+    text-align: left;
+}
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-    background: rgb(1, 1, 78);
+    background: rgb(8, 8, 105);
 }
 
 /* Color/shape of burger icon bars on hover*/
@@ -40,7 +43,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-    background: rgb(30, 30, 32);
+    background: rgb(5, 5, 71);
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
 }

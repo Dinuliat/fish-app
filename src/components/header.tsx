@@ -17,8 +17,7 @@ export const Header = () => {
                 <a id="safe-fishes" className="menu-item" href="/safe-fishes">Безопасные рыбы</a>
                 <a id="dangerous-fishes" className="menu-item" href="/dangerous-fishes">Опасные рыбы</a>
                 <a id="no-fishes" className="menu-item" href="/no-fishes">Не рыбы</a>
-                <a id="map" className="menu-item" href="/map">Карта</a>
-                <a id="yandex-map" className="menu-item" href="/yandex-map">Яндекс Карта</a>
+                <a id="yandex-map" className="menu-item" href="/yandex-map">Карта коралловых рифов</a>
                 <a id="contacts" className="menu-item" href="/contacts">Контакты</a>
             </Menu>
             <header className="fixed-header">
